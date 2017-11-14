@@ -56,8 +56,8 @@
                     <h2 style="width:95%">WE LISTEN TO OUR CLIENTS TO ALLOW US TO  <span class="red">UNDERSTAND THEIR CURRENT AND FUTURE NEEDS</span> AND TO SHAPE OUR BUSINESS TO MEET THOSE NEEDS.</h2>
                 </div>
                 <div class="col-md-4">
-                    <p class="ml-5" style="width:85%">We are a people business. Being massive in class in the eyes of our clients, means that our people must be excellent. </p>
-                    <a href="aboutus.php" class="btn btn-vsp btn-sm ml-5" style="width:200px; border:1px">READ MORE</a>
+                    <p class="ml-lg-5 ml-sm-1" style="width:85%">We are a people business. Being massive in class in the eyes of our clients, means that our people must be excellent. </p>
+                    <a href="aboutus.php" class="btn btn-vsp btn-sm ml-lg-5 ml-sm-1" style="width:200px;">READ MORE</a>
                 </div>
             </div>
             <div class="row">
@@ -79,11 +79,11 @@
                           <img class="d-block w-100" src="assets/img/03.jpg" alt="First slide">
                         </div>
                       </div>
-                      <a class="carousel-control-prev" href="#carouselIndicator" role="button" data-slide="prev">
+                      <a class="carousel-control-prev d-none d-md-flex" href="#carouselIndicator" role="button" data-slide="prev">
                         <img src="assets/img/prev.png" alt="prev">
                         <span class="sr-only">Previous</span>
                       </a>
-                      <a class="carousel-control-next" href="#carouselIndicator" role="button" data-slide="next">
+                      <a class="carousel-control-next d-none d-md-flex" href="#carouselIndicator" role="button" data-slide="next">
                         <img src="assets/img/next.png" alt="next">
                         <span class="sr-only">Next</span>
                       </a>
@@ -105,7 +105,7 @@
                         We provide an expert business advice on company rescue, restructuring, and insolvency.
                     </p>
                 </div>
-                <div class="col-md-4 text-center mx-auto pt-sm-5">
+                <div class="col-md-4 text-center mx-auto pt-5 pt-md-0">
                     <img src="assets/img/logo-pillar.png" alt="dispute">
                     <h5 class="red pt-3">ALTERNATIVE DISPUTE</h5>
                     <p class="pt-2">
@@ -124,18 +124,19 @@
                 </div>
             </div>
             <div class="row py-5 no-gutters mt-5">
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-12">
                     <a href="news1.php" class="card bg-secondary w-100 h-100 text-white card-news">
-                      <div class="card-img-overlay">
+                        <img class="card-img img-fluid" src="assets/img/grey2.png" alt="Card image" style="height:225px;">
+                        <div class="card-img-overlay">
                         <p class="card-text">CASES NEWS</p>
-                        <h2 class="card-title">PT Kembang 88 Multifinance Berusaha Ekstra Untuk Mengubah Keputusan PT Bank Negara Indonesia</h2>
+                        <h3 class="card-title">PT Kembang 88 Multifinance Berusaha Ekstra Untuk Mengubah Keputusan PT Bank Negara Indonesia</h3>
                         <p class="card-text date">11 Juni 2017 | Sumba | NTT</p>
                       </div>
                     </a>
                 </div>
-                <div class="col-md-6">
+                <div class="col-lg-6 col-md-12">
                     <div class="row">
-                        <div class="col-md">
+                        <div class="col-12">
                             <a href="#" class="card bg-dark text-white card-news">
                               <img class="card-img img-fluid" src="assets/img/news2.png" alt="Card image" style="height:225px;">
                               <div class="card-img-overlay">
@@ -146,7 +147,7 @@
                             </a>
                         </div>
                         <div class="w-100"></div>
-                        <div class="col-md">
+                        <div class="col-12">
                             <a href="#" class="card bg-dark text-white card-news">
                               <img class="card-img img-fluid" src="assets/img/news3.png" alt="Card image" style="height:225px;">
                               <div class="card-img-overlay">
@@ -172,8 +173,8 @@
                 <div class="card-group my-4">
                 <div class="card card-profile" id="profile-1" style="cursor:pointer">
                   <div class="card-body">
-                    <h5 class="card-title">Managing Partner</h5><br>
-                    <div class="social"><br>
+                    <h5 class="card-title">Managing Partner</h5>
+                    <div class="social d-none d-md-flex">
                         <a href="https://id.linkedin.com/in/verry-sitorus-b400a148" target="_blank">
                           <img src="assets/img/in.png" alt="instagram-logo">
                         </a>
@@ -186,8 +187,8 @@
                 </div>
                   <div class="card card-profile" id="profile-2" style="cursor:pointer">
                     <div class="card-body">
-                      <h5 class="card-title">Advocate &amp; Curator</h5> <br>
-                      <div class="social"><br>
+                      <h5 class="card-title">Advocate &amp; Curator</h5>
+                      <div class="social d-none d-md-flex">
                           <a href="https://id.linkedin.com/in/nofrizal-sihin-9a833796" target="_blank">
                             <img src="assets/img/in.png" alt="instagram-logo">
                           </a>
@@ -204,9 +205,8 @@
                   </div>
                   <div class="card card-profile" id="profile-3" style="cursor:pointer">
                     <div class="card-body">
-                      <h5 class="card-title">Advocate</h5> <br>
-                      <div class="social">
-                          <a href="#"><br>
+                      <h5 class="card-title">Advocate</h5>
+                      <div class="social d-none d-md-flex">                       <a href="#"><br>
                           <a href="https://www.linkedin.com/in/syarifah-meutia-zahra-a80931150/" target="_blank">
                             <img src="assets/img/in.png" alt="instagram-logo">
                           </a>
@@ -219,8 +219,8 @@
                   </div>
                   <div class="card card-profile" id="profile-4" style="cursor:pointer">
                     <div class="card-body">
-                      <h5 class="card-title">Advocate</h5> <br>
-                      <div class="social"><br>
+                      <h5 class="card-title">Advocate</h5>
+                      <div class="social d-none d-md-flex">
                           <a href="https://id.linkedin.com/in/maria-veronika-napitupulu-485303bb" target="_blank">
                             <img src="assets/img/in.png" alt="instagram-logo">
                           </a>
@@ -231,8 +231,8 @@
                   <div class="w-100"></div>
                   <div class="card card-profile" id="profile-5" style="cursor:pointer">
                     <div class="card-body">
-                      <h5 class="card-title">Advocate</h5> <br>
-                      <div class="social"><br>
+                      <h5 class="card-title">Advocate</h5>
+                      <div class="social d-none d-md-flex">
                           <a href="https://www.linkedin.com/in/grace-dina-mariana-sitinjak-s-h-a92630a8/" target="_blank">
                             <img src="assets/img/in.png" alt="instagram-logo">
                           </a>
@@ -245,8 +245,8 @@
                   </div>
                   <div class="card card-profile" id="profile-6" style="cursor:pointer">
                     <div class="card-body">
-                      <h5 class="card-title">Staff</h5> <br>
-                      <div class="social"><br>
+                      <h5 class="card-title">Staff</h5>
+                      <div class="social d-none d-md-flex">
                           <a href="#">
                             <img src="assets/img/in.png" alt="instagram-logo">
                           </a>

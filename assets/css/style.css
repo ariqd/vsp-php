@@ -59,6 +59,10 @@ h6, p {
      padding: 5px 0;
  }
 
+ .bg-secondary {
+     background-color: #868E96;
+ }
+
 .accent-color {
     width: 100%;
     height: 20px;
@@ -109,13 +113,12 @@ li.nav-item.active a {
 }
 
 .btn-vsp {
-    border-color: #95989A;
+    border: 1px solid #95989A;
     color: #95989A;
     background: none;
     border-radius: 0;
     font-size: 13px;
     outline: 0;
-    /*border: 0;*/
 }
 
 .btn-vsp:hover {
