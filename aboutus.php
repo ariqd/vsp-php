@@ -60,22 +60,22 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ml-auto">
                       <li class="nav-item border border-top-0 border-bottom-0 border-right-0">
-                        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item border border-top-0 border-bottom-0 border-right-0 active">
-                        <a class="nav-link" href="aboutus.html">ABOUT VSP</a>
+                        <a class="nav-link" href="aboutus.php">ABOUT VSP</a>
                       </li>
                       <li class="nav-item border border-top-0 border-bottom-0 border-right-0">
-                        <a class="nav-link" href="expertise.html">EXPERTISE</a>
+                        <a class="nav-link" href="expertise.php">EXPERTISE</a>
                       </li>
                       <li class="nav-item border border-top-0 border-bottom-0 border-right-0">
-                        <a class="nav-link" href="client.html">CLIENT</a>
+                        <a class="nav-link" href="client.php">CLIENT</a>
                       </li>
                       <li class="nav-item border border-top-0 border-bottom-0 border-right-0">
-                        <a class="nav-link" href="lawyers.html">LAWYERS</a>
+                        <a class="nav-link" href="lawyers.php">LAWYERS</a>
                       </li>
                       <li class="nav-item border border-top-0 border-bottom-0">
-                        <a class="nav-link" href="contact.html">CONTACT</a>
+                        <a class="nav-link" href="contact.php">CONTACT</a>
                       </li>
                   </ul>
                 </div>

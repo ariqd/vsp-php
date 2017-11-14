@@ -17,7 +17,7 @@
             </tr>
         </table>
 
-        <nav class="navbar navbar-expand navbar-light navbar-vsp my-4">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-vsp my-4">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="assets/img/logo.png" alt="logo" width="180">
@@ -28,22 +28,22 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item border border-top-0 border-bottom-0 border-right-0">
-                    <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item border border-top-0 border-bottom-0 border-right-0">
-                    <a class="nav-link" href="aboutus.html">ABOUT VSP</a>
+                    <a class="nav-link" href="aboutus.php">ABOUT VSP</a>
                   </li>
                   <li class="nav-item border border-top-0 border-bottom-0 border-right-0">
-                    <a class="nav-link" href="expertise.html">EXPERTISE</a>
+                    <a class="nav-link" href="expertise.php">EXPERTISE</a>
                   </li>
                   <li class="nav-item border border-top-0 border-bottom-0 border-right-0 active">
-                    <a class="nav-link" href="client.html">CLIENT</a>
+                    <a class="nav-link" href="client.php">CLIENT</a>
                   </li>
                   <li class="nav-item border border-top-0 border-bottom-0 border-right-0">
-                    <a class="nav-link" href="lawyers.html">LAWYERS</a>
+                    <a class="nav-link" href="lawyers.php">LAWYERS</a>
                   </li>
                   <li class="nav-item border border-top-0 border-bottom-0">
-                    <a class="nav-link" href="contact.html">CONTACT</a>
+                    <a class="nav-link" href="contact.php">CONTACT</a>
                   </li>
                 </ul>
               </div>
@@ -66,8 +66,7 @@
                             <div class="col-md-10 mx-auto">
                                 <div class="text-center">
                                 <h2>
-                                    VSP HAS <span class="red">VERY STONG EXPERIENCE INSOLVENCY &amp; BANKRUPTCY TEAM</span>
-                                      MADE UP OF TWO CURATORS AND FOUR ASSOCIATES.
+                                    “I FIRMLY BELIEVE IN THE <span class="red">RULE OF LAW</span> AS THE FOUNDATION FOR ALL OF OUR BASIC RIGHTS.” –SONIA SOTOMAYOR
                                 </h2>
                                 </div>
                             </div>

@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>VSP Admin</title>
-    <link rel="icon" type="image/png" href="assets/img/favicon-16x16.png" sizes="16x16" />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="../assets/img/favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <style>
     /*
     * Base structure
@@ -101,7 +101,7 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Log Out</a>
+              <a class="nav-link" href="index.php">Log Out</a>
             </li>
           </ul>
         </div>
@@ -112,11 +112,14 @@
       <div class="row">
         <nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
           <ul class="nav nav-pills flex-column">
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link" href="#">Dashboard</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link active" href="admin_artikel.php">Artikel</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#">Artikel</a>
+              <a class="nav-link" href="admin_texts.php">Teks</a>
             </li>
           </ul>
         </nav>
@@ -126,7 +129,7 @@
           <div class="card-deck">
               <div class="card">
                   <div class="crop">
-                      <img class="card-img-top" src="assets/img/news1.png" alt="Card image cap" style="bottom:-30px">
+                      <img class="card-img-top" src="../assets/img/news1.jpg" alt="Card image cap" style="bottom:-30px">
                   </div>
                 <div class="card-body">
                   <p class="card-text">CASES NEWS</p>
@@ -134,14 +137,14 @@
                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
                 <div class="card-footer">
-                    <a href="news.html" class="card-link text-secondary">Lihat Artikel</a>
-                    <a href="admin_artikel_edit.html" class="card-link">Edit</a>
+                    <a href="news.php" class="card-link text-secondary">Lihat Artikel</a>
+                    <a href="admin_artikel_edit.php" class="card-link">Edit</a>
                     <a href="#" class="card-link text-danger">Hapus</a>
                </div>
               </div>
               <div class="card">
                   <div class="crop">
-                      <img class="card-img-top" src="assets/img/news2.png" alt="Card image cap">
+                      <img class="card-img-top" src="../assets/img/news2.png" alt="Card image cap">
                   </div>
                 <div class="card-body">
                     <p class="card-text">POINT OF VIEW NEWS</p>
@@ -155,7 +158,7 @@
               </div>
               <div class="card">
                   <div class="crop">
-                      <img class="card-img-top" src="assets/img/news3.png" alt="Card image cap">
+                      <img class="card-img-top" src="../assets/img/news3.png" alt="Card image cap">
                   </div>
                 <div class="card-body">
                     <p class="card-text">OPINION</p>
@@ -180,8 +183,8 @@
       src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
       integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
       crossorigin="anonymous"></script>
-      <script src="assets/js/popper.min.js" charset="utf-8"></script>
-    <script src="assets/js/bootstrap.min.js" charset="utf-8"></script>
+      <script src="../assets/js/popper.min.js" charset="utf-8"></script>
+    <script src="../assets/js/bootstrap.min.js" charset="utf-8"></script>
     <script type="text/javascript">
         var text = document.cookie.split(";")[0].split("=")[1];
         if (text == undefined) {

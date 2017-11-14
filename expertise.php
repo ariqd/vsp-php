@@ -17,7 +17,7 @@
                 <td class="red"></td>
             </tr>
         </table>
-        <nav class="navbar navbar-expand navbar-light navbar-vsp my-4">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-vsp my-4">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="assets/img/logo.png" alt="logo" width="180">
@@ -28,22 +28,22 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item border border-top-0 border-bottom-0 border-right-0">
-                    <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item border border-top-0 border-bottom-0 border-right-0">
-                    <a class="nav-link" href="aboutus.html">ABOUT VSP</a>
+                    <a class="nav-link" href="aboutus.php">ABOUT VSP</a>
                   </li>
                   <li class="nav-item border border-top-0 border-bottom-0 border-right-0 active">
-                    <a class="nav-link" href="expertise.html">EXPERTISE</a>
+                    <a class="nav-link" href="expertise.php">EXPERTISE</a>
                   </li>
                   <li class="nav-item border border-top-0 border-bottom-0 border-right-0">
-                    <a class="nav-link" href="client.html">CLIENT</a>
+                    <a class="nav-link" href="client.php">CLIENT</a>
                   </li>
                   <li class="nav-item border border-top-0 border-bottom-0 border-right-0">
-                    <a class="nav-link" href="lawyers.html">LAWYERS</a>
+                    <a class="nav-link" href="lawyers.php">LAWYERS</a>
                   </li>
                   <li class="nav-item border border-top-0 border-bottom-0">
-                    <a class="nav-link" href="contact.html">CONTACT</a>
+                    <a class="nav-link" href="contact.php">CONTACT</a>
                   </li>
                 </ul>
               </div>
@@ -134,6 +134,7 @@
                                       Also, we will develop strategies to resolve complex disputes that involve negotiation,
                                       conciliation, multiple claims, parties, jurisdictions and parallel or closely related
                                       arbitral and judicial proceedings.<br><br>
+
                                       We actively pursue all avenues of dispute resolution available and advise clients on
                                       choosing the method most appropriate to them and to a particular matter. Our main priority
                                       is to resolve disputes in a quick and effective manner with as little disruption to
@@ -146,7 +147,7 @@
                               <div class="col-lg-12">
                                     <div class="text-center">
                                         <h2>
-                                            WE ACTIVELY PURSUE ALL AVENUES OF DISPUTE RESOLUTION AVAILABLE AND ADVISE CLIENTS ON CHOOSING THE METHOD MOST APPROPRIATE TO THEM AND TO A PARTICULAR MATTER
+                                            WE ACTIVELY PURSUE<span class="red"> ALL AVENUES OF DISPUTE RESOLUTION </span> AVAILABLE AND ADVISE CLIENTS ON CHOOSING THE METHOD MOST APPROPRIATE TO THEM AND TO A PARTICULAR MATTER
                                             <!-- “TO SOLVE THE PROBLEM OF <span class="red">ORGANIZING WORLD PEACE</span> WE MUST ESTABLISH <span class="red">WORLD LAW AND ORDER.</span>” <br>–ARTHUR HENDERSON -->
                                         </h2>
                                     </div>

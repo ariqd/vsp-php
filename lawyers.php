@@ -16,7 +16,7 @@
                 <td class="red"></td>
             </tr>
         </table>
-        <nav class="navbar navbar-expand navbar-light navbar-vsp my-4">
+        <nav class="navbar navbar-expand-lg navbar-light navbar-vsp my-4">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="assets/img/logo.png" alt="logo" width="180">
@@ -27,22 +27,22 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                   <li class="nav-item border border-top-0 border-bottom-0 border-right-0">
-                    <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item border border-top-0 border-bottom-0 border-right-0">
-                    <a class="nav-link" href="aboutus.html">ABOUT VSP</a>
+                    <a class="nav-link" href="aboutus.php">ABOUT VSP</a>
                   </li>
                   <li class="nav-item border border-top-0 border-bottom-0 border-right-0">
-                    <a class="nav-link" href="expertise.html">EXPERTISE</a>
+                    <a class="nav-link" href="expertise.php">EXPERTISE</a>
                   </li>
                   <li class="nav-item border border-top-0 border-bottom-0 border-right-0">
-                    <a class="nav-link" href="client.html">CLIENT</a>
+                    <a class="nav-link" href="client.php">CLIENT</a>
                   </li>
                   <li class="nav-item border border-top-0 border-bottom-0 border-right-0 active">
-                    <a class="nav-link" href="lawyers.html">LAWYERS</a>
+                    <a class="nav-link" href="lawyers.php">LAWYERS</a>
                   </li>
                   <li class="nav-item border border-top-0 border-bottom-0">
-                    <a class="nav-link" href="contact.html">CONTACT</a>
+                    <a class="nav-link" href="contact.php">CONTACT</a>
                   </li>
                 </ul>
               </div>
@@ -83,10 +83,12 @@
                     <h5 class="card-title">Managing Partner</h5><br>
                     <div class="social">
                         <a href="#">
-                            <img src="assets/img/ig.png" alt="instagram-logo">
+
+
                         </a> <br>
-                        <a href="#">
-                            <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px">
+                        <a href="https://id.linkedin.com/in/verry-sitorus-b400a148" target="_blank">
+                          <img src="assets/img/in.png" alt="instagram-logo">
+                            <!-- <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px"> -->
                         </a>
                     </div>
                     <p class="card-text">Verry Sitorus, S.H</p>
@@ -100,10 +102,11 @@
                       <h5 class="card-title">Advocate &amp; Curator</h5> <br>
                       <div class="social">
                           <a href="#">
-                              <img src="assets/img/ig.png" alt="instagram-logo">
+
                           </a> <br>
-                          <a href="#">
-                              <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px">
+                          <a href="https://id.linkedin.com/in/nofrizal-sihin-9a833796" target="_blank">
+                            <img src="assets/img/in.png" alt="instagram-logo">
+                              <!-- <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px"> -->
                           </a>
                       </div>
                       <p class="card-text">Nofrizal, S.Kom,<br>S.H., M.H.</p>
@@ -121,10 +124,11 @@
                       <h5 class="card-title">Advocate</h5> <br>
                       <div class="social">
                           <a href="#">
-                              <img src="assets/img/ig.png" alt="instagram-logo">
+
                           </a> <br>
-                          <a href="#">
-                              <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px" style="margin-top:-1px">
+                          <a href="https://www.linkedin.com/in/syarifah-meutia-zahra-a80931150/" target="_blank">
+                            <img src="assets/img/in.png" alt="instagram-logo">
+                              <!-- <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px" style="margin-top:-1px"> -->
                           </a>
                       </div>
                       <p class="card-text">Syarifah Meutia<br>Zahra, S.H.</p>
@@ -138,10 +142,11 @@
                       <h5 class="card-title">Advocate</h5> <br>
                       <div class="social">
                           <a href="#">
-                              <img src="assets/img/ig.png" alt="instagram-logo">
+
                           </a> <br>
-                          <a href="#">
-                              <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px">
+                          <a href="https://id.linkedin.com/in/maria-veronika-napitupulu-485303bb" target="_blank">
+                            <img src="assets/img/in.png" alt="instagram-logo">
+                              <!-- <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px"> -->
                           </a>
                       </div>
                       <p class="card-text">Maria Veronika <br> Napitupulu, S.H.</p>
@@ -153,10 +158,11 @@
                       <h5 class="card-title">Advocate</h5> <br>
                       <div class="social">
                           <a href="#">
-                              <img src="assets/img/ig.png" alt="instagram-logo">
+
                           </a> <br>
-                          <a href="#">
-                              <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px">
+                          <a href="https://www.linkedin.com/in/grace-dina-mariana-sitinjak-s-h-a92630a8/" target="_blank">
+                            <img src="assets/img/in.png" alt="instagram-logo">
+                              <!-- <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px"> -->
                           </a>
                       </div>
                       <p class="card-text">Grace Dina Mariana <br> Sitinjak, S.H.</p>
@@ -170,10 +176,11 @@
                       <h5 class="card-title">Staff</h5> <br>
                       <div class="social">
                           <a href="#">
-                              <img src="assets/img/ig.png" alt="instagram-logo">
+
                           </a> <br>
                           <a href="#">
-                              <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px">
+                            <img src="assets/img/in.png" alt="instagram-logo">
+                              <!-- <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px"> -->
                           </a>
                       </div>
                       <p class="card-text">Hani Nisfika<br>Herma, A.Md.</p>
@@ -184,27 +191,25 @@
                   </div>
                 </div>
             </div>
-        </div>
-        <footer class="mt-5">
-            <div class="container">
+            </div>
+            <footer class="mt-5">
+                <div class="container">
                 <div class="row py-5">
                     <div class="col-md-7">
                         <h5>LAWFIRM VERRY SITORUS &amp; PARTNERS</h5>
                         <p>
                             Since 2015, Law Firm Verry Sitorus & Partners have been one of the best law office in Indonesia with a structured vision for serving the best legal services in the name of justice and unity. We have wide client and partner network especially in Insolvency and Bankruptcy Law.
-
-
                         </p>
                     </div>
                     <div class="col-md-3">
                         <h5>Contact VSP</h5>
                         <p>
                             Gedung Kopi, 1st Floor <br>
-Jl. R.P. Soeroso No. 20,<br>
-Cikini - Menteng, Jakarta Pusat - 10330.<br>
-P : + 62 21 3190 7457<br>
-F : + 62 21 3190 7248<br>
-E : law@vsp.co.id <br>
+                            Jl. R.P. Soeroso No. 20,<br>
+                            Cikini - Menteng, Jakarta Pusat - 10330.<br>
+                            P : + 62 21 3190 7457<br>
+                            F : + 62 21 3190 7248<br>
+                            E : law@vsp.co.id <br>
                         </p>
                     </div>
                     <div class="col-md-2">
@@ -261,45 +266,45 @@ E : law@vsp.co.id <br>
                 })
 
                 $('#profile-1').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-verry.html';
+                     window.location = 'lawyers/lawyers-verry.php';
                 });
                 $('#image-1').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-verry.html';
+                     window.location = 'lawyers/lawyers-verry.php';
                 });
 
                 $('#profile-2').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-nofrizal.html';
+                     window.location = 'lawyers/lawyers-nofrizal.php';
                 });
                 $('#image-2').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-nofrizal.html';
+                     window.location = 'lawyers/lawyers-nofrizal.php';
                 });
 
                 $('#profile-3').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-syarifah.html';
+                     window.location = 'lawyers/lawyers-syarifah.php';
                 });
                 $('#image-3').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-syarifah.html';
+                     window.location = 'lawyers/lawyers-syarifah.php';
                 });
 
                 $('#profile-4').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-maria.html';
+                     window.location = 'lawyers/lawyers-maria.php';
                 });
                 $('#image-4').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-maria.html';
+                     window.location = 'lawyers/lawyers-maria.php';
                 });
 
                 $('#profile-5').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-grace.html';
+                     window.location = 'lawyers/lawyers-grace.php';
                 });
                 $('#image-5').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-grace.html';
+                     window.location = 'lawyers/lawyers-grace.php';
                 });
 
                 $('#profile-6').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-hani.html';
+                     window.location = 'lawyers/lawyers-hani.php';
                 });
                 $('#image-6').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-hani.html';
+                     window.location = 'lawyers/lawyers-hani.php';
                 });
             });
         </script>

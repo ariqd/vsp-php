@@ -618,3 +618,14 @@ footer p {
 .button:focus {
   outline: none;
 }
+
+   #googleMap {
+    height: 400px;
+    width: 100%;
+   }
+
+   .section-map {
+       background-color: #fff;
+       margin-top: -150px;
+       padding: 80px 100px 0px 80px;
+   }

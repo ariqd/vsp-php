@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>VSP Admin</title>
-    <link rel="icon" type="image/png" href="assets/img/favicon-16x16.png" sizes="16x16" />
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="../assets/img/favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
     <style>
     /*
     * Base structure
@@ -91,7 +91,7 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Log Out</a>
+              <a class="nav-link" href="index.php">Log Out</a>
             </li>
           </ul>
         </div>
@@ -106,14 +106,14 @@
                 <a class="nav-link" href="#">Dashboard</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="admin_artikel.html">Artikel</a>
+              <a class="nav-link active" href="admin_artikel.php">Artikel</a>
             </li>
           </ul>
         </nav>
 
         <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
-          <h1> <a href="admin_artikel.html"><img src="assets/img/prev.png" width="35" alt="back" class="img-fluid"></a> Edit Artikel</h1>
-          <form action="admin_artikel.html" method="post" onsubmit="store()">
+          <h1> <a href="admin_artikel.php"><img src="../assets/img/prev.png" width="35" alt="back" class="img-fluid"></a> Edit Artikel</h1>
+          <form action="admin_artikel.php" method="post" onsubmit="store()">
               <div class="form-group">
                   <label for="judul">Judul</label>
                   <input type="text" class="form-control" id="judul" placeholder="Judul artikel anda...">
@@ -152,8 +152,8 @@ We offer solutions to provide legal services in the field of Insolvency & bankru
       src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
       integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
       crossorigin="anonymous"></script>
-      <script src="assets/js/popper.min.js" charset="utf-8"></script>
-    <script src="assets/js/bootstrap.min.js" charset="utf-8"></script>
+      <script src="../assets/js/popper.min.js" charset="utf-8"></script>
+    <script src="../assets/js/bootstrap.min.js" charset="utf-8"></script>
     <script type="text/javascript">
       function store() {
         var text = document.getElementById("judul").value;
