@@ -2,24 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934360c3-0c2e-477a-a442-72a2c96d196c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/aboutus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin_artikel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin_artikel_edit.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/bootstrap-grid.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/client.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/expertise.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lawyers.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/news.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/assets/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lawyers/lawyers-grace.html" afterPath="$PROJECT_DIR$/lawyers/lawyers-grace.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lawyers/lawyers-hani.html" afterPath="$PROJECT_DIR$/lawyers/lawyers-hani.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lawyers/lawyers-maria.html" afterPath="$PROJECT_DIR$/lawyers/lawyers-maria.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lawyers/lawyers-nofrizal.html" afterPath="$PROJECT_DIR$/lawyers/lawyers-nofrizal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lawyers/lawyers-syarifah.html" afterPath="$PROJECT_DIR$/lawyers/lawyers-syarifah.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lawyers/lawyers-verry.html" afterPath="$PROJECT_DIR$/lawyers/lawyers-verry.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lawyers/lawyers-grace.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lawyers/lawyers-hani.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lawyers/lawyers-maria.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lawyers/lawyers-nofrizal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lawyers/lawyers-syarifah.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lawyers/lawyers-verry.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/aboutus.php" afterPath="$PROJECT_DIR$/aboutus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/client.php" afterPath="$PROJECT_DIR$/client.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contact.php" afterPath="$PROJECT_DIR$/contact.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/expertise.php" afterPath="$PROJECT_DIR$/expertise.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lawyers.php" afterPath="$PROJECT_DIR$/lawyers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news1.php" afterPath="$PROJECT_DIR$/news1.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news2.php" afterPath="$PROJECT_DIR$/news2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news3.php" afterPath="$PROJECT_DIR$/news3.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,22 +37,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5406">
-              <caret line="318" column="8" lean-forward="false" selection-start-line="318" selection-start-column="8" selection-end-line="319" selection-end-column="74" />
+            <state relative-caret-position="169">
+              <caret line="107" column="64" lean-forward="false" selection-start-line="107" selection-start-column="64" selection-end-line="107" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/contact.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="97" column="39" lean-forward="true" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
-              <folding />
+            <state relative-caret-position="118">
+              <caret line="88" column="31" lean-forward="true" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+              <folding>
+                <marker date="1510647907726" expanded="false" signature="7994:7999" ph="&amp;" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,7 +64,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="271">
               <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1510647907724" expanded="false" signature="6104:6109" ph="&amp;" />
+                <marker date="1510647907724" expanded="true" signature="6150:6485" ph="..." />
+                <marker date="1510647907724" expanded="true" signature="6555:6889" ph="..." />
+                <marker date="1510647907724" expanded="true" signature="6628:6862" ph="..." />
+                <marker date="1510647907724" expanded="true" signature="6932:7370" ph="..." />
+                <marker date="1510647907724" expanded="true" signature="7056:7164" ph="..." />
+                <marker date="1510647907724" expanded="true" signature="7236:7343" ph="..." />
+                <marker date="1510647907724" expanded="true" signature="7468:7598" ph="..." />
+                <marker date="1510647907724" expanded="true" signature="7485:7581" ph="..." />
+                <marker date="1510647907724" expanded="true" signature="7616:7793" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,7 +95,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>home</find>
-      <find>LAWFIRM</find>
+      <find>LAW FIRM</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,8 +107,8 @@
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/admin/admin_texts.php" />
         <option value="$PROJECT_DIR$/client.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/contact.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -154,6 +164,11 @@
               <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="vsp-php" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vsp-php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lawyers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -189,12 +204,12 @@
       <updated>1510630036556</updated>
       <workItem from="1510630038762" duration="1773000" />
       <workItem from="1510646606717" duration="1040000" />
-      <workItem from="1510647677837" duration="74000" />
+      <workItem from="1510647677837" duration="524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2887000" />
+    <option name="totallyTimeSpent" value="3337000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -250,7 +265,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1649">
           <caret line="97" column="136" lean-forward="false" selection-start-line="97" selection-start-column="136" selection-end-line="97" selection-end-column="136" />
-          <folding />
+          <folding>
+            <marker date="1510647907726" expanded="false" signature="7994:7999" ph="&amp;" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -258,7 +275,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1258">
           <caret line="74" column="23" lean-forward="true" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="23" />
-          <folding />
+          <folding>
+            <marker date="1510647907724" expanded="false" signature="6104:6109" ph="&amp;" />
+            <marker date="1510647907724" expanded="true" signature="6150:6485" ph="..." />
+            <marker date="1510647907724" expanded="true" signature="6555:6889" ph="..." />
+            <marker date="1510647907724" expanded="true" signature="6628:6862" ph="..." />
+            <marker date="1510647907724" expanded="true" signature="6932:7370" ph="..." />
+            <marker date="1510647907724" expanded="true" signature="7056:7164" ph="..." />
+            <marker date="1510647907724" expanded="true" signature="7236:7343" ph="..." />
+            <marker date="1510647907724" expanded="true" signature="7468:7598" ph="..." />
+            <marker date="1510647907724" expanded="true" signature="7485:7581" ph="..." />
+            <marker date="1510647907724" expanded="true" signature="7616:7793" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -302,26 +330,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5406">
-          <caret line="318" column="8" lean-forward="false" selection-start-line="318" selection-start-column="8" selection-end-line="319" selection-end-column="74" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="271">
           <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1510647907724" expanded="false" signature="6104:6109" ph="&amp;" />
+            <marker date="1510647907724" expanded="true" signature="6150:6485" ph="..." />
+            <marker date="1510647907724" expanded="true" signature="6555:6889" ph="..." />
+            <marker date="1510647907724" expanded="true" signature="6628:6862" ph="..." />
+            <marker date="1510647907724" expanded="true" signature="6932:7370" ph="..." />
+            <marker date="1510647907724" expanded="true" signature="7056:7164" ph="..." />
+            <marker date="1510647907724" expanded="true" signature="7236:7343" ph="..." />
+            <marker date="1510647907724" expanded="true" signature="7468:7598" ph="..." />
+            <marker date="1510647907724" expanded="true" signature="7485:7581" ph="..." />
+            <marker date="1510647907724" expanded="true" signature="7616:7793" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/contact.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="97" column="39" lean-forward="true" selection-start-line="97" selection-start-column="39" selection-end-line="97" selection-end-column="39" />
+        <state relative-caret-position="118">
+          <caret line="88" column="31" lean-forward="true" selection-start-line="88" selection-start-column="31" selection-end-line="88" selection-end-column="31" />
+          <folding>
+            <marker date="1510647907726" expanded="false" signature="7994:7999" ph="&amp;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="107" column="64" lean-forward="false" selection-start-line="107" selection-start-column="64" selection-end-line="107" selection-end-column="64" />
           <folding />
         </state>
       </provider>

@@ -4,11 +4,12 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>VSP - Verry Sitorus S.H.</title>
+        <title>VSP - Hani Nisfika Herma, A.Md.</title>
         <link rel="icon" type="image/png" href="../assets/img/favicon-16x16.png" sizes="16x16" />
         <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="../assets/css/style.css">
         <style>
+            /* jssor slider loading skin spin css */
             .jssorl-009-spin img {
                 animation-name: jssorl-009-spin;
                 animation-duration: 1.6s;
@@ -100,41 +101,26 @@
                         <div class="row py-5">
                             <div class="col-md-5">
                               <img src="../assets/img/logo-pantheon.png" alt="insolvency">
-                              <h4 class="mt-4"><span class="red">VERRY SITORUS S.H</span></h4>
+                              <h4 class="mt-4"><span class="red">Hani Nisfika Herma, A.Md.</span></h4>
                               <p><b>
-                              Founder and Managing Partner
+                              Staff
                               </b></p>
                               <div class="mt-5">
                                   <!-- <a href="#">
                                       <img src="../assets/img/ig.png" alt="instagram-logo">
                                   </a> -->
-                                  <a href="https://id.linkedin.com/in/verry-sitorus-b400a148">
+                                  <a href="#">
                                       <img src="../assets/img/in.png" alt="facebook-logo">
                                   </a>
                               </div>
                             </div>
                             <div class="col-md-7">
                                   <p>
-                                    Verry Sitorus is the founder and managing partner of Law Firm VERRY SITORUS & Partners.
-                                    Through his experiences as a lawyer since 2005, he is reliable in handling numerous criminal cases,
-                                    such as banking crime, corruption, cyber-crime and other common crimes.
-                                    In addition to his expertise on the things above, he has also been familiar
-                                    with dealing with civil cases, such as intellectual property rights, oil and gas,
-                                    land and property, insurance and investment cases.
-                      </p><br><br><br>
-                              <h2>
-                                  “IF WE DESIRE  <span class="red">RESPECT FOR THE LAW, </span>
-                                    WE MUST FIRST MAKE THE LAW RESPECTABLE.”<br>
-                              </h2>
-                              <h5 style="font-family:Klavika-Regular-Italic;">Louis D. Brandeis</h5>
-                              <br><br><br>
-                                <p>      Currently, he has gained a reputation as a Receiver and having numerous experiences
-                                      in Insolvency and Bankruptcy law. He is a member of the Indonesian Bar Association
-                                      (Peradi) and a member of the receiver and administrator for bankruptcy and suspension
-                                      of payments proceedings (AKPI).<br><br>
-
-                                      He’s a native speaker of Bahasa Indonesia (Indonesian) and has a moderate speaking ability of English.
-                                </p>
+                                    Hani graduated from Politeknik Negeri Padang (Padang State-Run Polytechic)
+                                    in 2016 Majoring in Accountancy. She joined the firm in 2017. She has a lot of
+                                    experiences in accounting. She has mastered some accounting software, such as ACCURATE,
+                                    MYOB, Excel for Accounting, and database.
+                                  </p>
                             </div>
                           </div>
                     </div>
@@ -142,7 +128,7 @@
                </div>
             </div>
 
-            <div id="jssor_1" style="position:relative;margin:0 auto;top:0;left:0;width:1020px;height:450px;overflow:hidden;visibility:hidden;margin-bottom:-110px">
+            <div id="jssor_1" style="position:relative;margin:0 auto;top:0;left:0;width:1020px;height:450px;overflow:hidden;visibility:hidden;margin-bottom:-110px;">
                 <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
                     <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="../assets/img/spin.svg" />
                 </div>
@@ -181,11 +167,9 @@
             <div class="container">
                 <div class="row py-5">
                     <div class="col-md-7">
-                        <h5>LAWFIRM VERRY SITORUS &amp; PARTNERS</h5>
+                        <h5>LAW FIRM VERRY SITORUS &amp; PARTNERS</h5>
                         <p>
                             Since 2015, Law Firm Verry Sitorus & Partners have been one of the best law office in Indonesia with a structured vision for serving the best legal services in the name of justice and unity. We have wide client and partner network especially in Insolvency and Bankruptcy Law.
-
-
                         </p>
                     </div>
                     <div class="col-md-3">

@@ -4,12 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>VSP - Syarifah Meutia Zahra, S.H.</title>
+        <title>VSP - Verry Sitorus S.H.</title>
         <link rel="icon" type="image/png" href="../assets/img/favicon-16x16.png" sizes="16x16" />
         <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="../assets/css/style.css">
         <style>
-            /* jssor slider loading skin spin css */
             .jssorl-009-spin img {
                 animation-name: jssorl-009-spin;
                 animation-duration: 1.6s;
@@ -101,33 +100,41 @@
                         <div class="row py-5">
                             <div class="col-md-5">
                               <img src="../assets/img/logo-pantheon.png" alt="insolvency">
-                              <h4 class="mt-4"><span class="red">Syarifah Meutia Zahra, S.H.</span></h4>
+                              <h4 class="mt-4"><span class="red">VERRY SITORUS S.H</span></h4>
                               <p><b>
-                              Advocate
+                              Founder and Managing Partner
                               </b></p>
                               <div class="mt-5">
                                   <!-- <a href="#">
                                       <img src="../assets/img/ig.png" alt="instagram-logo">
                                   </a> -->
-                                  <a href="https://www.linkedin.com/in/syarifah-meutia-zahra-a80931150/">
+                                  <a href="https://id.linkedin.com/in/verry-sitorus-b400a148">
                                       <img src="../assets/img/in.png" alt="facebook-logo">
                                   </a>
                               </div>
                             </div>
                             <div class="col-md-7">
                                   <p>
-                                    Meutia joined Verry Sitours & Partners in March 2017 after having her Bachelor Degree
-                                    from faculty of Law, Universitas Sumatera Utara (Sumatera Utara University) in August 2016. <br><br>
+                                    Verry Sitorus is the founder and managing partner of Law Firm VERRY SITORUS & Partners.
+                                    Through his experiences as a lawyer since 2005, he is reliable in handling numerous criminal cases,
+                                    such as banking crime, corruption, cyber-crime and other common crimes.
+                                    In addition to his expertise on the things above, he has also been familiar
+                                    with dealing with civil cases, such as intellectual property rights, oil and gas,
+                                    land and property, insurance and investment cases.
+                      </p><br><br><br>
+                              <h2>
+                                  “IF WE DESIRE  <span class="red">RESPECT FOR THE LAW, </span>
+                                    WE MUST FIRST MAKE THE LAW RESPECTABLE.”<br>
+                              </h2>
+                              <h5 style="font-family:Klavika-Regular-Italic;">Louis D. Brandeis</h5>
+                              <br><br><br>
+                                <p>      Currently, he has gained a reputation as a Receiver and having numerous experiences
+                                      in Insolvency and Bankruptcy law. He is a member of the Indonesian Bar Association
+                                      (Peradi) and a member of the receiver and administrator for bankruptcy and suspension
+                                      of payments proceedings (AKPI).<br><br>
 
-                                    She was experienced with court system since she was predicated as the best attorney at her
-                                    faculty in 2013 and also acted as chairman and member of deliberation in a few leadership organizations.<br><br>
-
-                                    Since joining the VSP team, Meutia has gained valuable experiences of making contract review and
-                                    legal opinion based on corporate law and any other related regulations and she also follows the
-                                    process of insolvency and suspension of debt payment through her participation in many cases at VSP.<br><br>
-
-                                    She’s a native speaker of Bahasa Indonesia (Indonesian) and a proficient speaker of English.
-                                  </p>
+                                      He’s a native speaker of Bahasa Indonesia (Indonesian) and has a moderate speaking ability of English.
+                                </p>
                             </div>
                           </div>
                     </div>
@@ -170,12 +177,11 @@
                 </div>
             </div>
 
-
         <footer class="mt-0 pb-0">
             <div class="container">
                 <div class="row py-5">
                     <div class="col-md-7">
-                        <h5>LAWFIRM VERRY SITORUS &amp; PARTNERS</h5>
+                        <h5>LAW FIRM VERRY SITORUS &amp; PARTNERS</h5>
                         <p>
                             Since 2015, Law Firm Verry Sitorus & Partners have been one of the best law office in Indonesia with a structured vision for serving the best legal services in the name of justice and unity. We have wide client and partner network especially in Insolvency and Bankruptcy Law.
 

@@ -4,12 +4,11 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>VSP - Nofrizal, S.Kom, S.H., M.H.</title>
+        <title>VSP - Grace Dina Mariana Sitinjak, S.H.</title>
         <link rel="icon" type="image/png" href="../assets/img/favicon-16x16.png" sizes="16x16" />
         <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="../assets/css/style.css">
         <style>
-            /* jssor slider loading skin spin css */
             .jssorl-009-spin img {
                 animation-name: jssorl-009-spin;
                 animation-duration: 1.6s;
@@ -43,7 +42,6 @@
                 <td class="red"></td>
             </tr>
         </table>
-
         <nav class="navbar navbar-expand-lg navbar-light navbar-vsp my-4">
             <div class="container">
                 <a class="navbar-brand" href="#">
@@ -76,7 +74,6 @@
               </div>
           </div>
         </nav>
-
         <div class="container-fluid">
             <div class="row">
               <div class="col-lg-12 p-0">
@@ -84,7 +81,6 @@
               </div>
             </div>
         </div>
-
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -101,26 +97,23 @@
                         <div class="row py-5">
                             <div class="col-md-5">
                               <img src="../assets/img/logo-pantheon.png" alt="insolvency">
-                              <h4 class="mt-4"><span class="red">Nofrizal, S.Kom, S.H., M.H.</span></h4>
-                              <p><b>Advocate &amp; Curator</b></p>
+                              <h4 class="mt-4"><span class="red">Grace Dina Mariana Sitinjak, S.H.</span></h4>
+                              <p><b>Advocate</b></p>
                               <div class="mt-5">
                                   <!-- <a href="#">
                                       <img src="../assets/img/ig.png" alt="instagram-logo">
                                   </a> -->
-                                  <a href="https://id.linkedin.com/in/nofrizal-sihin-9a833796">
+                                  <a href="https://www.linkedin.com/in/grace-dina-mariana-sitinjak-s-h-a92630a8/ ">
                                       <img src="../assets/img/in.png" alt="facebook-logo">
                                   </a>
                               </div>
                             </div>
                             <div class="col-md-7">
                                   <p>
-                                    Nofrizal holds a Sarjana Hukum degree (Bachelor of Law) from the Faculty of Law, Andalas University, Padang, West Sumatra majoring in criminal law; and Master of Laws degree from the University of Indonesia (Jakarta) majoring in Business Law; and also Bachelor of Computer Science, Majoring in Computer System from Putra Indonesia University (UPI-YPTK), Padang, West Sumatra. He joined Law Firm Verry Sitorus & Partners in October 2015 after previously working with another local firm in Jakarta.
-                                    <br><br>
-                                    His expertise includes litigation, debt restructuring, general corporate & investment, Intellectual Property Rights and Computer Law.
-                                    <br><br>
-                                    He is licensed advocate and a member of the Indonesian Advocates Association (Peradi) and a licensed receiver and administrator for bankruptcy and suspension of payments proceedings (AKPI).
-                                    <br><br>
-                                    He’s a native speaker of Bahasa Indonesia (Indonesian) and a proficient speaker of English.
+                                      Grace earned her Bachelor Degree in Law from Universitas Sumatera Utara (Sumatera Utara University) in May 2015 with a “Cum-laude” predicate. <br><br>
+Upon graduation, she was immediately employed as junior associate in one of the biggest Law Firms in Medan. Furthermore, at the end of 2016 she moved to Jakarta to get more chances and then she joined VSP Law Firm in early 2017. <br><br>
+With a keen interest in corporate law, she focused primarily on corporate and insolvency. She regularly provides legal advisories and opinions to clients. In addition, she also handles litigation cases such as criminal litigation and private litigation. <br><br>
+She’s a native speaker of Bahasa Indonesia (Indonesian) and a proficient speaker of English.
                                   </p>
                             </div>
                           </div>
@@ -164,28 +157,24 @@
                 </div>
             </div>
 
-
         <footer class="mt-0 pb-0">
             <div class="container">
                 <div class="row py-5">
                     <div class="col-md-7">
-                        <h5>LAWFIRM VERRY SITORUS &amp; PARTNERS</h5>
+                        <h5>LAW FIRM VERRY SITORUS &amp; PARTNERS</h5>
                         <p>
                             Since 2015, Law Firm Verry Sitorus & Partners have been one of the best law office in Indonesia with a structured vision for serving the best legal services in the name of justice and unity. We have wide client and partner network especially in Insolvency and Bankruptcy Law.
-
-
                         </p>
                     </div>
                     <div class="col-md-3">
                         <h5>Contact VSP</h5>
                         <p>
                             Gedung Kopi, 1st Floor <br>
-Jl. R.P. Soeroso No. 20,<br>
-Cikini - Menteng, Jakarta Pusat - 10330.<br>
-P : + 62 21 3190 7457<br>
-F : + 62 21 3190 7248<br>
-E : law@vsp.co.id <br>
-
+                            Jl. R.P. Soeroso No. 20,<br>
+                            Cikini - Menteng, Jakarta Pusat - 10330.<br>
+                            P : + 62 21 3190 7457<br>
+                            F : + 62 21 3190 7248<br>
+                            E : law@vsp.co.id <br>
                         </p>
                     </div>
                     <div class="col-md-2">

@@ -105,7 +105,7 @@
                         We provide an expert business advice on company rescue, restructuring, and insolvency.
                     </p>
                 </div>
-                <div class="col-md-4 text-center mx-auto">
+                <div class="col-md-4 text-center mx-auto pt-sm-5">
                     <img src="assets/img/logo-pillar.png" alt="dispute">
                     <h5 class="red pt-3">ALTERNATIVE DISPUTE</h5>
                     <p class="pt-2">
@@ -113,8 +113,8 @@
                     </p>
                 </div>
             </div>
-            <div class="row py-5">
-                <div class="col-md-4 text-center mx-auto py-2">
+            <div class="row py-lg-5">
+                <div class="col-md-4 text-center mx-auto py-lg-2">
                     <img src="assets/img/logo-pantheon.png" alt="insolvency">
                     <h5 class="red pt-3">LITIGATIONS</h5>
                     <p class="pt-2">
@@ -126,7 +126,6 @@
             <div class="row py-5 no-gutters mt-5">
                 <div class="col-md-6">
                     <a href="news1.php" class="card bg-secondary w-100 h-100 text-white card-news">
-                      <!-- <img class="card-img img-fluid bg-secondary w-100 h-100" alt="Card image" style="height:450px;"> -->
                       <div class="card-img-overlay">
                         <p class="card-text">CASES NEWS</p>
                         <h2 class="card-title">PT Kembang 88 Multifinance Berusaha Ekstra Untuk Mengubah Keputusan PT Bank Negara Indonesia</h2>
@@ -272,7 +271,7 @@
             <div class="container">
                 <div class="row py-5">
                     <div class="col-md-7">
-                        <h5>LAWFIRM VERRY SITORUS &amp; PARTNERS</h5>
+                        <h5>LAW FIRM VERRY SITORUS &amp; PARTNERS</h5>
                         <p>
                             Since 2015, Law Firm Verry Sitorus & Partners have been one of the best law office in Indonesia with a structured vision for serving the best legal services in the name of justice and unity. We have wide client and partner network especially in Insolvency and Bankruptcy Law.
                         </p>

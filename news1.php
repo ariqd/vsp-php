@@ -127,7 +127,7 @@
         <div class="container">
             <div class="row py-5">
                 <div class="col-sm-7">
-                    <h5>LAWFIRM VERRY SITORUS &amp; PARTNERS</h5>
+                    <h5>LAW FIRM VERRY SITORUS &amp; PARTNERS</h5>
                     <p>
                         Since 2015, Law Firm Verry Sitorus & Partners have been one of the best
                         law office in Indonesia with a structured vision for serving the best legal

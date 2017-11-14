@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>VSP - Hani Nisfika Herma, A.Md.</title>
+        <title>VSP - Syarifah Meutia Zahra, S.H.</title>
         <link rel="icon" type="image/png" href="../assets/img/favicon-16x16.png" sizes="16x16" />
         <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="../assets/css/style.css">
@@ -101,25 +101,32 @@
                         <div class="row py-5">
                             <div class="col-md-5">
                               <img src="../assets/img/logo-pantheon.png" alt="insolvency">
-                              <h4 class="mt-4"><span class="red">Hani Nisfika Herma, A.Md.</span></h4>
+                              <h4 class="mt-4"><span class="red">Syarifah Meutia Zahra, S.H.</span></h4>
                               <p><b>
-                              Staff
+                              Advocate
                               </b></p>
                               <div class="mt-5">
                                   <!-- <a href="#">
                                       <img src="../assets/img/ig.png" alt="instagram-logo">
                                   </a> -->
-                                  <a href="#">
+                                  <a href="https://www.linkedin.com/in/syarifah-meutia-zahra-a80931150/">
                                       <img src="../assets/img/in.png" alt="facebook-logo">
                                   </a>
                               </div>
                             </div>
                             <div class="col-md-7">
                                   <p>
-                                    Hani graduated from Politeknik Negeri Padang (Padang State-Run Polytechic)
-                                    in 2016 Majoring in Accountancy. She joined the firm in 2017. She has a lot of
-                                    experiences in accounting. She has mastered some accounting software, such as ACCURATE,
-                                    MYOB, Excel for Accounting, and database.
+                                    Meutia joined Verry Sitours & Partners in March 2017 after having her Bachelor Degree
+                                    from faculty of Law, Universitas Sumatera Utara (Sumatera Utara University) in August 2016. <br><br>
+
+                                    She was experienced with court system since she was predicated as the best attorney at her
+                                    faculty in 2013 and also acted as chairman and member of deliberation in a few leadership organizations.<br><br>
+
+                                    Since joining the VSP team, Meutia has gained valuable experiences of making contract review and
+                                    legal opinion based on corporate law and any other related regulations and she also follows the
+                                    process of insolvency and suspension of debt payment through her participation in many cases at VSP.<br><br>
+
+                                    She’s a native speaker of Bahasa Indonesia (Indonesian) and a proficient speaker of English.
                                   </p>
                             </div>
                           </div>
@@ -128,7 +135,7 @@
                </div>
             </div>
 
-            <div id="jssor_1" style="position:relative;margin:0 auto;top:0;left:0;width:1020px;height:450px;overflow:hidden;visibility:hidden;margin-bottom:-110px;">
+            <div id="jssor_1" style="position:relative;margin:0 auto;top:0;left:0;width:1020px;height:450px;overflow:hidden;visibility:hidden;margin-bottom:-110px">
                 <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
                     <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="../assets/img/spin.svg" />
                 </div>
@@ -163,13 +170,16 @@
                 </div>
             </div>
 
+
         <footer class="mt-0 pb-0">
             <div class="container">
                 <div class="row py-5">
                     <div class="col-md-7">
-                        <h5>LAWFIRM VERRY SITORUS &amp; PARTNERS</h5>
+                        <h5>LAW FIRM VERRY SITORUS &amp; PARTNERS</h5>
                         <p>
                             Since 2015, Law Firm Verry Sitorus & Partners have been one of the best law office in Indonesia with a structured vision for serving the best legal services in the name of justice and unity. We have wide client and partner network especially in Insolvency and Bankruptcy Law.
+
+
                         </p>
                     </div>
                     <div class="col-md-3">
