@@ -1,3 +1,8 @@
+<?php
+//include ("../config.php");
+include ("../session.php");
+//session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -101,7 +106,7 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.php">Log Out</a>
+              <a class="nav-link" href="logout.php">Log Out</a>
             </li>
           </ul>
         </div>
@@ -112,9 +117,6 @@
       <div class="row">
         <nav class="col-sm-3 col-md-2 d-none d-sm-block bg-light sidebar">
           <ul class="nav nav-pills flex-column">
-            <!-- <li class="nav-item">
-                <a class="nav-link" href="#">Dashboard</a>
-            </li> -->
             <li class="nav-item">
               <a class="nav-link active" href="admin_artikel.php">Artikel</a>
             </li>

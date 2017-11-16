@@ -1,3 +1,6 @@
+<?php
+include ("../session.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -104,7 +107,7 @@
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.php">Log Out</a>
+              <a class="nav-link" href="logout.php">Log Out</a>
             </li>
           </ul>
         </div>
@@ -158,10 +161,6 @@
     <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous"></script>
-    <script
-      src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
-      integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
       crossorigin="anonymous"></script>
       <script src="../assets/js/popper.min.js" charset="utf-8"></script>
     <script src="../assets/js/bootstrap.min.js" charset="utf-8"></script>

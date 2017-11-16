@@ -63,7 +63,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div id="carouselIndicator" class="carousel slide my-5" data-ride="carousel">
-                      <ol class="carousel-indicators d-flex justify-content-end pl-5">
+                      <ol class="carousel-indicators d-none d-md-flex justify-content-end pl-5">
                         <li data-target="#carouselIndicator" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselIndicator" data-slide-to="1"></li>
                         <li data-target="#carouselIndicator" data-slide-to="2"></li>
@@ -170,10 +170,10 @@
                 </div>
             </div>
             <div class="row my-5">
-                <div class="card-group my-4">
+                <div class="card-group my-4 w-100">
                 <div class="card card-profile" id="profile-1" style="cursor:pointer">
                   <div class="card-body">
-                    <h5 class="card-title">Managing Partner</h5>
+                    <h5 class="card-title">Managing Partner</h5> <br>
                     <div class="social d-none d-md-flex">
                         <a href="https://id.linkedin.com/in/verry-sitorus-b400a148" target="_blank">
                           <img src="assets/img/in.png" alt="instagram-logo">
@@ -183,11 +183,11 @@
                   </div>
                 </div>
                 <div class="card" style="cursor:pointer">
-                  <img class="card-img-top" src="assets/img/1.png" id="image-1">
+                  <img class="card-img-top" src="assets/img/1.png" id="image-1" style="max-height: 500px;">
                 </div>
                   <div class="card card-profile" id="profile-2" style="cursor:pointer">
                     <div class="card-body">
-                      <h5 class="card-title">Advocate &amp; Curator</h5>
+                      <h5 class="card-title">Advocate &amp; Curator</h5> <br><br>
                       <div class="social d-none d-md-flex">
                           <a href="https://id.linkedin.com/in/nofrizal-sihin-9a833796" target="_blank">
                             <img src="assets/img/in.png" alt="instagram-logo">
@@ -197,16 +197,16 @@
                     </div>
                   </div>
                   <div class="card">
-                    <img class="card-img-top" src="assets/img/2.png" id="image-2" style="cursor:pointer">
+                    <img class="card-img-top" src="assets/img/2.png" id="image-2" style="cursor:pointer;max-height: 500px;">
                   </div>
                   <div class="w-100"></div>
                   <div class="card card-image">
-                    <img class="card-img-top" src="assets/img/6.png" class="card-image" style="cursor:pointer">
+                    <img class="card-img-top" src="assets/img/6.png" class="card-image" style="cursor:pointer;max-height: 500px;">
                   </div>
                   <div class="card card-profile" id="profile-3" style="cursor:pointer">
                     <div class="card-body">
-                      <h5 class="card-title">Advocate</h5>
-                      <div class="social d-none d-md-flex">                       <a href="#"><br>
+                      <h5 class="card-title">Advocate</h5> <br><br>
+                      <div class="social d-none d-md-flex">
                           <a href="https://www.linkedin.com/in/syarifah-meutia-zahra-a80931150/" target="_blank">
                             <img src="assets/img/in.png" alt="instagram-logo">
                           </a>
@@ -215,11 +215,11 @@
                     </div>
                   </div>
                   <div class="card card-image">
-                    <img class="card-img-top" src="assets/img/4.png" class="card-image" style="cursor:pointer">
+                    <img class="card-img-top" src="assets/img/4.png" class="card-image" style="cursor:pointer;max-height: 500px;">
                   </div>
                   <div class="card card-profile" id="profile-4" style="cursor:pointer">
                     <div class="card-body">
-                      <h5 class="card-title">Advocate</h5>
+                      <h5 class="card-title">Advocate</h5> <br><br>
                       <div class="social d-none d-md-flex">
                           <a href="https://id.linkedin.com/in/maria-veronika-napitupulu-485303bb" target="_blank">
                             <img src="assets/img/in.png" alt="instagram-logo">
@@ -231,7 +231,7 @@
                   <div class="w-100"></div>
                   <div class="card card-profile" id="profile-5" style="cursor:pointer">
                     <div class="card-body">
-                      <h5 class="card-title">Advocate</h5>
+                      <h5 class="card-title">Advocate</h5> <br><br>
                       <div class="social d-none d-md-flex">
                           <a href="https://www.linkedin.com/in/grace-dina-mariana-sitinjak-s-h-a92630a8/" target="_blank">
                             <img src="assets/img/in.png" alt="instagram-logo">
@@ -241,11 +241,11 @@
                     </div>
                   </div>
                   <div class="card">
-                    <img class="card-img-top" src="assets/img/5.png" id="image-5" style="cursor:pointer">
+                    <img class="card-img-top" src="assets/img/5.png" id="image-5" style="cursor:pointer;max-height: 500px;">
                   </div>
                   <div class="card card-profile" id="profile-6" style="cursor:pointer">
                     <div class="card-body">
-                      <h5 class="card-title">Staff</h5>
+                      <h5 class="card-title">Staff</h5> <br><br>
                       <div class="social d-none d-md-flex">
                           <a href="#">
                             <img src="assets/img/in.png" alt="instagram-logo">
