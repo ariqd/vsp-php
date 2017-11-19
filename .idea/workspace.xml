@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="934360c3-0c2e-477a-a442-72a2c96d196c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/admin_artikel_new.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/edit_artikel_execute.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/admin_artikel.php" afterPath="$PROJECT_DIR$/admin/admin_artikel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/admin_artikel_edit.php" afterPath="$PROJECT_DIR$/admin/admin_artikel_edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news2.php" afterPath="$PROJECT_DIR$/news2.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/news3.php" afterPath="$PROJECT_DIR$/news3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vsp_db.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -85,7 +76,7 @@
       <file leaf-file-name="admin_login.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/admin_login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="-85">
               <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
               <folding>
                 <marker date="1510665596379" expanded="true" signature="292:341" ph="SELECT id FR... admin" />
@@ -248,22 +239,6 @@
               <item name="vsp-php" type="b2602c69:ProjectViewProjectNode" />
               <item name="vsp-php" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="vsp-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vsp-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vsp-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vsp-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vsp-php" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vsp-php" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -302,18 +277,17 @@
       <workItem from="1510660156470" duration="7868000" />
       <workItem from="1510749656873" duration="1203000" />
       <workItem from="1510843517452" duration="598000" />
-      <workItem from="1511047409444" duration="20993000" />
+      <workItem from="1511047409444" duration="21093000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36752000" />
+    <option name="totallyTimeSpent" value="36852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20196672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20196672" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -826,7 +800,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/admin_login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="-85">
           <caret line="40" column="31" lean-forward="false" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
           <folding>
             <marker date="1510665596379" expanded="true" signature="292:341" ph="SELECT id FR... admin" />
