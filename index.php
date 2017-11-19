@@ -1,19 +1,3 @@
-<?php
-include ("session.php");
-include ("tanggal.php");
-$query1 = "SELECT news.*, kategori.nama FROM news JOIN kategori ON news.id_kategori = kategori.id_kategori WHERE nomor=1";
-$fetch1 = mysqli_query($db, $query1);
-$news1 = mysqli_fetch_array($fetch1);
-
-$query2 = "SELECT news.*, kategori.nama FROM news JOIN kategori ON news.id_kategori = kategori.id_kategori WHERE nomor=2";
-$fetch2 = mysqli_query($db, $query2);
-$news2 = mysqli_fetch_array($fetch2);
-
-$query3 = "SELECT news.*, kategori.nama FROM news JOIN kategori ON news.id_kategori = kategori.id_kategori WHERE nomor=3";
-$fetch3 = mysqli_query($db, $query3);
-$news3 = mysqli_fetch_array($fetch3);
-
-?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -35,7 +19,7 @@ $news3 = mysqli_fetch_array($fetch3);
 
         <nav class="navbar navbar-expand-lg navbar-light navbar-vsp my-4">
             <div class="container">
-                <a class="navbar-brand" href="index.php">
+                <a class="navbar-brand" href="#">
                     <img src="assets/img/logo.png" alt="logo" width="180">
                 </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -141,35 +125,35 @@ $news3 = mysqli_fetch_array($fetch3);
             </div>
             <div class="row py-5 no-gutters mt-5">
                 <div class="col-lg-6 col-md-12">
-                    <a href="news.php?id=<?php echo $news1['id_news']; ?>" class="card bg-dark text-white card-news">
-                        <img class="card-img img-fluid" src="assets/img/<?php echo $news1['gambar'] ?>" alt=" " style="height:450px;">
+                    <a href="news3.php" class="card bg-dark text-white card-news">
+                        <img class="card-img img-fluid" src="assets/img/news1.jpg" alt="Card image" style="height:450px;">
                         <div class="card-img-overlay">
-                        <p class="card-text"><?php echo $news1['nama'] ?></p>
-                        <h3 class="card-title"><?php echo strip_tags($news1['judul']) ?></h3>
-                        <p class="card-text date"><?php echo tanggal_indo($news1['tgl_buat']) ?></p>
+                        <p class="card-text">CASES NEWS</p>
+                        <h3 class="card-title">James Gunardjo Tidak Lama Lagi Disidangkan</h3>
+                        <p class="card-text date">3 Agustus 2012 | DKI Jakarta</p>
                       </div>
                     </a>
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="row">
                         <div class="col-12">
-                            <a href="news.php?id=<?php echo $news2['id_news']; ?>" class="card bg-dark text-white card-news">
-                              <img class="card-img img-fluid" src="assets/img/<?php echo $news2['gambar'] ?>" alt=" " style="height:225px;">
+                            <a href="news1.php" class="card bg-dark text-white card-news">
+                              <img class="card-img img-fluid" src="assets/img/news2.png" alt="Card image" style="height:225px;">
                               <div class="card-img-overlay">
-                                  <p class="card-text"><?php echo $news2['nama'] ?></p>
-                                  <h4 class="card-title"><?php echo strip_tags($news2['judul']) ?></h4>
-                                  <p class="card-text date"><?php echo tanggal_indo($news2['tgl_buat']) ?></p>
+                                <p class="card-text">POINT OF VIEW NEWS</p>
+                                <h4 class="card-title">PT Kembang 88 Multifinance Berusaha Ekstra Untuk Mengubah Keputusan PT Bank Negara Indonesia.</h4>
+                                <p class="card-text date">DKI Jakarta</p>
                               </div>
                             </a>
                         </div>
                         <div class="w-100"></div>
                         <div class="col-12">
-                            <a href="news.php?id=<?php echo $news3['id_news']; ?>" class="card bg-dark text-white card-news">
-                              <img class="card-img img-fluid" src="assets/img/<?php echo $news3['gambar'] ?>" alt=" " style="height:225px;">
+                            <a href="news2.php" class="card bg-dark text-white card-news">
+                              <img class="card-img img-fluid" src="assets/img/news3.png" alt="Card image" style="height:225px;">
                               <div class="card-img-overlay">
-                                  <p class="card-text"><?php echo $news3['nama'] ?></p>
-                                  <h4 class="card-title"><?php echo strip_tags($news3['judul']) ?></h4>
-                                  <p class="card-text date"><?php echo tanggal_indo($news3['tgl_buat']) ?></p>
+                                <p class="card-text">OPINION</p>
+                                <h4 class="card-title">PT Kembang 88 Multifinance Siap Meladeni Permohonan Kasasi yang Diajukan oleh Dua Krediturnya.</h4>
+                                <p class="card-text date">DKI Jakarta</p>
                               </div>
                             </a>
                         </div>

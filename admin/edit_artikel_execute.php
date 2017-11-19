@@ -8,11 +8,8 @@ include ("../session.php");
     $kolom1 = $_POST['kolom1'];
     $kolom2 = $_POST['kolom2'];
     $tgl_buat = date("Y-m-d");
-    $target_name = $_POST['prev_gambar'];
-    $withImage = false;
 
-    if ($_FILES['gambar']['size'] != 0 && $_FILES['gambar']['error'] != 4) {
-        $withImage = true;
+    if (isset($_POST['gambar'])) {
         $target_dir = "../assets/img/";
         $target_name = basename($_FILES["gambar"]["name"]);
         $target_file = $target_dir . $target_name;
@@ -20,7 +17,7 @@ include ("../session.php");
         $imageFileType = pathinfo($target_file, PATHINFO_EXTENSION);
 
         // Check if image file is a actual image or fake image
-        if (isset($_FILES["gambar"])) {
+        if (isset($_POST["gambar"])) {
             $check = getimagesize($_FILES["gambar"]["tmp_name"]);
             if ($check !== false) {
                 echo "File is an image - " . $check["mime"] . ".";
@@ -57,18 +54,12 @@ include ("../session.php");
                 echo "Sorry, there was an error uploading your file.";
             }
         }
+        $query = "UPDATE news SET judul='$judul', id_kategori=$kategori, header='$header', kolom1='$kolom1', kolom2='kolom2', gambar='$target_name',tgl_buat=$tgl_buat
+                  WHERE id_news=$id";
+    } else {
+        $query = "UPDATE news SET judul='$judul', id_kategori=$kategori, header='$header', kolom1='$kolom1', kolom2='$kolom2', tgl_buat=$tgl_buat
+                  WHERE id_news=$id";
     }
-
-    $query = "UPDATE news SET judul='$judul', id_kategori=$kategori, header='$header', kolom1='$kolom1', kolom2='$kolom2', gambar='$target_name',tgl_buat='$tgl_buat'
-              WHERE id_news=$id";
-
-//    if ($withImage) {
-//        $query = "UPDATE news SET judul='$judul', id_kategori=$kategori, header='$header', kolom1='$kolom1', kolom2='$kolom2', gambar='$target_name',tgl_buat=$tgl_buat
-//                  WHERE id_news=$id";
-//    }
-//        $query = "UPDATE news SET judul='$judul', id_kategori=$kategori, header='$header', kolom1='$kolom1', kolom2='$kolom2', tgl_buat=$tgl_buat
-//                  WHERE id_news=$id";
-
     mysqli_query($db, $query);
     header('location: admin_artikel.php');
 

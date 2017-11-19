@@ -27,7 +27,7 @@ $data = mysqli_fetch_array($news);
 
 <nav class="navbar navbar-expand-lg navbar-light navbar-vsp my-4">
     <div class="container">
-        <a class="navbar-brand" href="index.php">
+        <a class="navbar-brand" href="#">
             <img src="assets/img/logo.png" alt="logo" width="180">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -86,7 +86,7 @@ $data = mysqli_fetch_array($news);
                     </div>
                     <div class="col-lg-12">
                         <div class="mt-4">
-                            <h2 style="width:90%;text-transform: uppercase"><?php echo $data['judul']; ?></h2>
+                            <h2 style="width:90%"><?php echo $data['judul']; ?></h2>
                         </div>
                     </div>
                 </div>

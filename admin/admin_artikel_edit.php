@@ -117,16 +117,12 @@ include ("../session.php");
                 <li class="nav-item">
                     <a class="nav-link active" href="admin_artikel.php">Artikel</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="admin_texts.php.php">Teks</a>
-                </li>
             </ul>
         </nav>
         <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
             <h1> <a href="admin_artikel.php"><img src="../assets/img/prev.png" width="35" alt="back" class="img-fluid"></a> Edit Artikel</h1>
             <form action="edit_artikel_execute.php" method="post" enctype="multipart/form-data">
                 <input type="hidden" name="id_news" value="<?php echo $id ?>">
-                <input type="hidden" name="prev_gambar" value="<?php echo $data['gambar'] ?>">
                 <div class="form-group">
                     <label for="judul">Judul</label>
                     <input type="text" class="form-control" id="judul" placeholder="Judul artikel anda..."
@@ -151,9 +147,8 @@ include ("../session.php");
                            name="header" value="<?php echo $data['header'];?>" required>
                 </div>
                 <div class="form-group">
-                    <label for="file">Gambar (JPG / PNG)</label>
-                    <input type="file" class="form-control-file" id="file" name="gambar"/>
-                    <p class="form-help">Biarkan jika tidak diubah</p>
+                    <label for="file">Gambar (JPG / PNG 853x654)</label>
+                    <input type="file" class="form-control-file" id="file" name="gambar">
                 </div>
                 <div class="row">
                     <div class="col-6">

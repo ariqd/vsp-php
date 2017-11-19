@@ -1,51 +1,3 @@
-<?php
-$statusMsg = '';
-$msgClass = '';
-if(isset($_POST['submit'])){
-    // Get the submitted form data
-    $email = $_POST['email'];
-    $name = $_POST['name'];
-    $subject = $_POST['subject'];
-    $message = $_POST['message'];
-
-    // Check whether submitted data is not empty
-    if(!empty($email) && !empty($name) && !empty($subject) && !empty($message)){
-
-        if(filter_var($email, FILTER_VALIDATE_EMAIL) === false){
-            $statusMsg = 'Please enter your valid email.';
-            $msgClass = 'errordiv';
-        }else{
-            // Recipient email
-            $toEmail = 'user@example.com';
-            $emailSubject = 'Contact Request Submitted by '.$name;
-            $htmlContent = '<h2>Contact Request Submitted</h2>
-                <h4>Name</h4><p>'.$name.'</p>
-                <h4>Email</h4><p>'.$email.'</p>
-                <h4>Subject</h4><p>'.$subject.'</p>
-                <h4>Message</h4><p>'.$message.'</p>';
-
-            // Set content-type header for sending HTML email
-            $headers = "MIME-Version: 1.0" . "\r\n";
-            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-
-            // Additional headers
-            $headers .= 'From: '.$name.'<'.$email.'>'. "\r\n";
-
-            // Send email
-            if(mail($toEmail,$emailSubject,$htmlContent,$headers)){
-                $statusMsg = 'Your contact request has been submitted successfully !';
-                $msgClass = 'succdiv';
-            }else{
-                $statusMsg = 'Your contact request submission failed, please try again.';
-                $msgClass = 'errordiv';
-            }
-        }
-    }else{
-        $statusMsg = 'Please fill all the fields.';
-        $msgClass = 'errordiv';
-    }
-}
-?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -95,7 +47,7 @@ if(isset($_POST['submit'])){
 
         <nav class="navbar navbar-expand-lg navbar-light navbar-vsp my-4">
             <div class="container">
-                <a class="navbar-brand" href="index.php">
+                <a class="navbar-brand" href="#">
                     <img src="assets/img/logo.png" alt="logo" width="180">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -168,10 +120,7 @@ if(isset($_POST['submit'])){
                               </a>
                             </div>
                             <div class="col-md-8">
-                                <?php if(!empty($statusMsg)){ ?>
-                                    <p class="statusMsg <?php echo !empty($msgClass)?$msgClass:''; ?>"><?php echo $statusMsg; ?></p>
-                                <?php } ?>
-                                <form action="" method="post">
+                                <form>
                                     <div class="form-group">
                                       <input type="email" required="required"/>
                                       <label class="control-label" for="input">Email Address</label><i class="bar"></i>
