@@ -102,7 +102,6 @@
                               <br><br>
                               Tetapi, Verry mengaku tetap akan melanjutkan upaya praperadilan yang digelar di
                               Pengadilan Negeri Jakarta Selatan. Walaupun, dalam sidang sebelumnya, KPK tidak hadir.
-
                           </p>
                           <img src="assets/img/news1.jpg" class="img-article py-4">
                           <p class="text-small">

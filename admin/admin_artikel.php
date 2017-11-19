@@ -1,7 +1,8 @@
 <?php
-//include ("../config.php");
 include ("../session.php");
-//session_start();
+$query = "SELECT news.*, kategori.nama FROM news JOIN kategori ON news.id_kategori = kategori.id_kategori ORDER BY news.nomor ASC";
+$news = mysqli_query($db, $query);
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,87 +14,7 @@ include ("../session.php");
     <link rel="icon" type="image/png" href="../assets/img/favicon-16x16.png" sizes="16x16" />
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <style>
-    /*
-    * Base structure
-    */
-
-    /* Move down content because we have a fixed navbar that is 3.5rem tall */
-    body {
-    padding-top: 3.5rem;
-    }
-
-    /*
-    * Typography
-    */
-
-    h1 {
-    padding-bottom: 9px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #eee;
-    }
-
-    /*
-    * Sidebar
-    */
-
-    .sidebar {
-    position: fixed;
-    top: 51px;
-    bottom: 0;
-    left: 0;
-    z-index: 1000;
-    padding: 20px 0;
-    overflow-x: hidden;
-    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-    border-right: 1px solid #eee;
-    }
-
-    .sidebar .nav {
-    margin-bottom: 20px;
-    }
-
-    .sidebar .nav-item {
-    width: 100%;
-    }
-
-    .sidebar .nav-item + .nav-item {
-    margin-left: 0;
-    }
-
-    .sidebar .nav-link {
-    border-radius: 0;
-    color: #95989A;
-    }
-
-    .sidebar .nav-link.active {
-    background-color: #C0202F;
-    }
-    /*
-    * Dashboard
-    */
-
-    /* Placeholders */
-    .placeholders {
-    padding-bottom: 3rem;
-    }
-
-    .placeholder img {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    }
-
-    .crop {
-        min-height: 120px;
-        overflow: hidden;
-        position: relative;
-    }
-
-    .crop img {
-        position: absolute;
-    }
-
-    </style>
+    <link rel="stylesheet" href="../assets/css/admin.css">
 </head>
 <body>
     <header>
@@ -102,9 +23,11 @@ include ("../session.php");
         <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                  <a href="../index.php" class="nav-link">Go To Front Page</a>
+              </li>
             <li class="nav-item">
               <a class="nav-link" href="logout.php">Log Out</a>
             </li>
@@ -120,60 +43,43 @@ include ("../session.php");
             <li class="nav-item">
               <a class="nav-link active" href="admin_artikel.php">Artikel</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="admin_texts.php">Teks</a>
-            </li>
+<!--            <li class="nav-item">-->
+<!--              <a class="nav-link" href="admin_texts.php">Teks</a>-->
+<!--            </li>-->
           </ul>
         </nav>
 
         <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">
-          <h1>Artikel</h1>
+          <h1>
+              Artikel
+<!--              <div class="float-right">-->
+<!--                  <a href="#" class="btn btn-secondary btn-lg">+ Kategori Baru</a>-->
+<!--                  <a href="admin_artikel_new.php" class="btn btn-primary btn-lg">+ Artikel Baru</a>-->
+<!--              </div>-->
+          </h1>
           <div class="card-deck">
-              <div class="card">
-                  <div class="crop">
-                      <img class="card-img-top" src="../assets/img/news1.jpg" alt="Card image cap" style="bottom:-30px">
+              <?php
+              while ($row = mysqli_fetch_assoc($news)) {
+                  ?>
+                  <div class="card">
+                      <div class="card-header">Artikel <?php echo $row['id_kategori']; ?></div>
+                      <div class="crop">
+                          <img class="card-img-top" src="../assets/img/<?php echo $row['gambar'];?>" alt="Card image cap" style="bottom:-30px">
+                      </div>
+                      <div class="card-body">
+                          <p class="card-text"><?php echo $row['nama']; ?></p>
+                          <h4 class="card-title"><?php echo $row['judul']; ?></h4>
+                          <p class="card-text"><small class="text-muted"><?php echo $row['tgl_buat'];?></small></p>
+                      </div>
+                      <div class="card-footer">
+                          <a href="../news.php?id=<?php echo $row['id_news'];?>" class="card-link text-secondary">Lihat Artikel</a>
+                          <a href="admin_artikel_edit.php?id=<?php echo $row['id_news'];?>" class="card-link">Edit</a>
+                      </div>
                   </div>
-                <div class="card-body">
-                  <p class="card-text">CASES NEWS</p>
-                  <h4 class="card-title" id="title">Pandangan Verry Sitorus selaku kuasa hukum PT Bumi Bergetar atas kasus kepailitannya</h4>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-                <div class="card-footer">
-                    <a href="news.php" class="card-link text-secondary">Lihat Artikel</a>
-                    <a href="admin_artikel_edit.php" class="card-link">Edit</a>
-                    <a href="#" class="card-link text-danger">Hapus</a>
-               </div>
-              </div>
-              <div class="card">
-                  <div class="crop">
-                      <img class="card-img-top" src="../assets/img/news2.png" alt="Card image cap">
-                  </div>
-                <div class="card-body">
-                    <p class="card-text">POINT OF VIEW NEWS</p>
-                    <h4 class="card-title">Verry Sitorus and Partners di mata James Purba, selaku ketua Peradi.</h4>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-                <div class="card-footer">
-                    <a href="#" class="card-link">Edit</a>
-                    <a href="#" class="card-link text-danger">Hapus</a>
-               </div>
-              </div>
-              <div class="card">
-                  <div class="crop">
-                      <img class="card-img-top" src="../assets/img/news3.png" alt="Card image cap">
-                  </div>
-                <div class="card-body">
-                    <p class="card-text">OPINION</p>
-                    <h4 class="card-title">Gerakan Radikal Jakarta dalam persfektif hukum.</h4>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-                <div class="card-footer">
-                    <a href="#" class="card-link">Edit</a>
-                    <a href="#" class="card-link text-danger">Hapus</a>
-               </div>
-              </div>
+              <?php
+              }
+              ?>
             </div>
-
         </main>
       </div>
     </div>
@@ -187,13 +93,5 @@ include ("../session.php");
       crossorigin="anonymous"></script>
       <script src="../assets/js/popper.min.js" charset="utf-8"></script>
     <script src="../assets/js/bootstrap.min.js" charset="utf-8"></script>
-    <script type="text/javascript">
-        var text = document.cookie.split(";")[0].split("=")[1];
-        if (text == undefined) {
-            document.getElementById("title").innerHTML = "Pandangan Verry Sitorus selaku kuasa hukum PT Bumi Bergetar atas kasus kepailitannya"
-        } else {
-            document.getElementById("title").innerHTML = text;
-        }
-      </script>
 </body>
 </html>

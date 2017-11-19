@@ -63,7 +63,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div id="carouselIndicator" class="carousel slide my-5" data-ride="carousel">
-                      <ol class="carousel-indicators d-none d-md-flex justify-content-end pl-5">
+                      <ol class="carousel-indicators d-flex justify-content-end pl-5">
                         <li data-target="#carouselIndicator" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselIndicator" data-slide-to="1"></li>
                         <li data-target="#carouselIndicator" data-slide-to="2"></li>
@@ -125,35 +125,35 @@
             </div>
             <div class="row py-5 no-gutters mt-5">
                 <div class="col-lg-6 col-md-12">
-                    <a href="news1.php" class="card bg-secondary w-100 h-100 text-white card-news">
-                        <img class="card-img img-fluid" src="assets/img/grey2.png" alt="Card image" style="height:225px;">
+                    <a href="news3.php" class="card bg-dark text-white card-news">
+                        <img class="card-img img-fluid" src="assets/img/news1.jpg" alt="Card image" style="height:450px;">
                         <div class="card-img-overlay">
                         <p class="card-text">CASES NEWS</p>
-                        <h3 class="card-title">PT Kembang 88 Multifinance Berusaha Ekstra Untuk Mengubah Keputusan PT Bank Negara Indonesia</h3>
-                        <p class="card-text date">11 Juni 2017 | Sumba | NTT</p>
+                        <h3 class="card-title">James Gunardjo Tidak Lama Lagi Disidangkan</h3>
+                        <p class="card-text date">3 Agustus 2012 | DKI Jakarta</p>
                       </div>
                     </a>
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="row">
                         <div class="col-12">
-                            <a href="#" class="card bg-dark text-white card-news">
+                            <a href="news1.php" class="card bg-dark text-white card-news">
                               <img class="card-img img-fluid" src="assets/img/news2.png" alt="Card image" style="height:225px;">
                               <div class="card-img-overlay">
                                 <p class="card-text">POINT OF VIEW NEWS</p>
-                                <h4 class="card-title">Verry Sitorus and Partners di mata James Purba, selaku ketua Peradi.</h4>
-                                <p class="card-text date">22 Desember 2016 | Sumba | NTT</p>
+                                <h4 class="card-title">PT Kembang 88 Multifinance Berusaha Ekstra Untuk Mengubah Keputusan PT Bank Negara Indonesia.</h4>
+                                <p class="card-text date">DKI Jakarta</p>
                               </div>
                             </a>
                         </div>
                         <div class="w-100"></div>
                         <div class="col-12">
-                            <a href="#" class="card bg-dark text-white card-news">
+                            <a href="news2.php" class="card bg-dark text-white card-news">
                               <img class="card-img img-fluid" src="assets/img/news3.png" alt="Card image" style="height:225px;">
                               <div class="card-img-overlay">
                                 <p class="card-text">OPINION</p>
-                                <h4 class="card-title">Gerakan Radikal Jakarta dalam persfektif hukum.</h4>
-                                <p class="card-text date">22 Desember 2016 | Sumba | NTT</p>
+                                <h4 class="card-title">PT Kembang 88 Multifinance Siap Meladeni Permohonan Kasasi yang Diajukan oleh Dua Krediturnya.</h4>
+                                <p class="card-text date">DKI Jakarta</p>
                               </div>
                             </a>
                         </div>

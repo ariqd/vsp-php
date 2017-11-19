@@ -94,13 +94,6 @@
                               <br><br>
                               “Jika menuduh ada persekongkolan jahat silakan saja dibuktikan, kita ini negara hukum, simpel kan,” katanya, Minggu (13/8/2017).
                               <br><br>
-
-                          </p>
-                          <!-- <img src="assets/img/news1.jpg" class="img-article py-4"> -->
-                          <p class="text-small">
-
-
-
                           </p>
                       </div>
                       <div class="col-lg-6 pl-5">
@@ -112,10 +105,6 @@
                             “kalau ingin tahu alasan kreditur mengubah suara ya tanya ke direktur perseroan mereka. Kan direktur yang tanda tangan,” ungkapnya.
                             <br><br>
                             Verry menuturkan pihaknya telah memberikan kontra memori kasasi ke Mahkamah Agung terkait kasus ini.
-
-
-
-
                           </p>
                       </div>
                   </div>
@@ -145,12 +134,6 @@
                         P : + 62 21 3190 7457<br>
                         F : + 62 21 3190 7248<br>
                         E : law@vsp.co.id <br>
-
-                        <br>
-                         <br>
-                         <br>
-                         <br>
-
                     </p>
                 </div>
                 <div class="col-sm-2">
