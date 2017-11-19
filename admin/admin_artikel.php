@@ -43,9 +43,9 @@ $news = mysqli_query($db, $query);
             <li class="nav-item">
               <a class="nav-link active" href="admin_artikel.php">Artikel</a>
             </li>
-<!--            <li class="nav-item">-->
-<!--              <a class="nav-link" href="admin_texts.php">Teks</a>-->
-<!--            </li>-->
+            <li class="nav-item">
+              <a class="nav-link" href="admin_texts.php">Teks</a>
+            </li>
           </ul>
         </nav>
 
