@@ -27,7 +27,7 @@ while ($row = mysqli_fetch_assoc($result))
         </table>
         <nav class="navbar navbar-expand-lg navbar-light navbar-vsp my-4">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.php">
                     <img src="assets/img/logo.png" alt="logo" width="180">
                 </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,120 +84,93 @@ while ($row = mysqli_fetch_assoc($result))
             </div>
             <div class="container">
             <div class="row no-gutters pb-5">
-                <div class="card-group my-4">
-                <div class="card card-profile" id="profile-1" style="cursor:pointer">
-                  <div class="card-body">
-                    <h5 class="card-title">
-                        <?php echo $output[1]['teks']; ?>
-                    </h5><br>
-                    <div class="social">
-                        <a href="#">
-
-
-                        </a> <br>
-                        <a href="<?php echo $output[3]['teks']; ?>" target="_blank">
-                          <img src="assets/img/in.png" alt="instagram-logo">
-                            <!-- <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px"> -->
-                        </a>
+                <div class="card-group my-4 w-100">
+                    <div class="card card-profile" id="profile-1" style="cursor:pointer">
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo $output[1]['teks']; ?></h5> <br>
+                            <div class="social d-none d-md-flex">
+                                <a href="<?php echo $output[3]['teks']; ?>" target="_blank">
+                                    <img src="assets/img/in.png" alt="instagram-logo">
+                                </a>
+                            </div>
+                            <p class="card-text"><?php echo $output[2]['teks']; ?></p>
+                        </div>
                     </div>
-                    <p class="card-text"><?php echo $output[2]['teks']; ?></p>
-                  </div>
-                </div>
-                <div class="card" style="cursor:pointer">
-                  <img class="card-img-top" src="assets/img/1.png" id="image-1">
-                </div>
-                  <div class="card card-profile" id="profile-2" style="cursor:pointer">
-                    <div class="card-body">
-                      <h5 class="card-title"><?php echo $output[4]['teks']; ?></h5> <br>
-                      <div class="social">
-                          <a href="#">
-
-                          </a> <br>
-                          <a href="<?php echo $output[6]['teks']; ?>" target="_blank">
-                            <img src="assets/img/in.png" alt="instagram-logo">
-                              <!-- <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px"> -->
-                          </a>
-                      </div>
-                      <p class="card-text"><?php echo $output[5]['teks']; ?></p>
+                    <div class="card" style="cursor:pointer">
+                        <img class="card-img-top" src="assets/img/1.png" id="image-1" style="max-height: 500px;">
                     </div>
-                  </div>
-                  <div class="card">
-                    <img class="card-img-top" src="assets/img/2.png" id="image-2" style="cursor:pointer">
-                  </div>
-                  <div class="w-100"></div>
-                  <div class="card card-image">
-                    <img class="card-img-top" src="assets/img/6.png" class="card-image" style="cursor:pointer">
-                  </div>
-                  <div class="card card-profile" id="profile-3" style="cursor:pointer">
-                    <div class="card-body">
-                      <h5 class="card-title"><?php echo $output[7]['teks']; ?></h5> <br>
-                      <div class="social">
-                          <a href="#">
-
-                          </a> <br>
-                          <a href="<?php echo $output[9]['teks']; ?>" target="_blank">
-                            <img src="assets/img/in.png" alt="instagram-logo">
-                              <!-- <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px" style="margin-top:-1px"> -->
-                          </a>
-                      </div>
-                      <p class="card-text"><?php echo $output[8]['teks']; ?>.</p>
+                    <div class="card card-profile" id="profile-2" style="cursor:pointer">
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo $output[4]['teks']; ?></h5> <br><br>
+                            <div class="social d-none d-md-flex">
+                                <a href="<?php echo $output[6]['teks']; ?>" target="_blank">
+                                    <img src="assets/img/in.png" alt="instagram-logo">
+                                </a>
+                            </div>
+                            <p class="card-text"><?php echo $output[5]['teks']; ?></p>
+                        </div>
                     </div>
-                  </div>
-                  <div class="card card-image">
-                    <img class="card-img-top" src="assets/img/4.png" class="card-image" style="cursor:pointer">
-                  </div>
-                  <div class="card card-profile" id="profile-4" style="cursor:pointer">
-                    <div class="card-body">
-                      <h5 class="card-title"><?php echo $output[10]['teks']; ?></h5> <br>
-                      <div class="social">
-                          <a href="#">
-
-                          </a> <br>
-                          <a href="<?php echo $output[12]['teks']; ?>" target="_blank">
-                            <img src="assets/img/in.png" alt="instagram-logo">
-                              <!-- <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px"> -->
-                          </a>
-                      </div>
-                      <p class="card-text"><?php echo $output[11]['teks']; ?></p>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/2.png" id="image-2" style="cursor:pointer;max-height: 500px;">
                     </div>
-                  </div>
-                  <div class="w-100"></div>
-                  <div class="card card-profile" id="profile-5" style="cursor:pointer">
-                    <div class="card-body">
-                      <h5 class="card-title"><?php echo $output[13]['teks']; ?></h5> <br>
-                      <div class="social">
-                          <a href="#">
-
-                          </a> <br>
-                          <a href="<?php echo $output[15]['teks']; ?>" target="_blank">
-                            <img src="assets/img/in.png" alt="instagram-logo">
-                              <!-- <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px"> -->
-                          </a>
-                      </div>
-                      <p class="card-text"><?php echo $output[14]['teks']; ?></p>
+                    <div class="w-100"></div>
+                    <div class="card card-image">
+                        <img class="card-img-top" src="assets/img/6.png" class="card-image" style="cursor:pointer;max-height: 500px;">
                     </div>
-                  </div>
-                  <div class="card">
-                    <img class="card-img-top" src="assets/img/5.png" id="image-5" style="cursor:pointer">
-                  </div>
-                  <div class="card card-profile" id="profile-6" style="cursor:pointer">
-                    <div class="card-body">
-                      <h5 class="card-title"><?php echo $output[16]['teks']; ?></h5> <br>
-                      <div class="social">
-                          <a href="#">
-
-                          </a> <br>
-                          <a href="#">
-                            <img src="assets/img/in.png" alt="linkedin-logo">
-<!--                               <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px"> -->
-                          </a>
-                      </div>
-                      <p class="card-text"><?php echo $output[17]['teks']; ?></p>
+                    <div class="card card-profile" id="profile-3" style="cursor:pointer">
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo $output[7]['teks']; ?></h5> <br><br>
+                            <div class="social d-none d-md-flex">
+                                <a href="<?php echo $output[9]['teks']; ?>" target="_blank">
+                                    <img src="assets/img/in.png" alt="instagram-logo">
+                                </a>
+                            </div>
+                            <p class="card-text"><?php echo $output[8]['teks']; ?></p>
+                        </div>
                     </div>
-                  </div>
-                  <div class="card">
-                      <div class="bg-secondary w-100 h-100" id="image-6" style="cursor:pointer"></div>
-                  </div>
+                    <div class="card card-image">
+                        <img class="card-img-top" src="assets/img/4.png" class="card-image" style="cursor:pointer;max-height: 500px;">
+                    </div>
+                    <div class="card card-profile" id="profile-4" style="cursor:pointer">
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo $output[10]['teks']; ?></h5> <br><br>
+                            <div class="social d-none d-md-flex">
+                                <a href="<?php echo $output[12]['teks']; ?>" target="_blank">
+                                    <img src="assets/img/in.png" alt="instagram-logo">
+                                </a>
+                            </div>
+                            <p class="card-text"><?php echo $output[11]['teks']; ?></p>
+                        </div>
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="card card-profile" id="profile-5" style="cursor:pointer">
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo $output[13]['teks']; ?></h5> <br><br>
+                            <div class="social d-none d-md-flex">
+                                <a href="<?php echo $output[15]['teks']; ?>" target="_blank">
+                                    <img src="assets/img/in.png" alt="instagram-logo">
+                                </a>
+                            </div>
+                            <p class="card-text"><?php echo $output[14]['teks']; ?></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img class="card-img-top" src="assets/img/5.png" id="image-5" style="cursor:pointer;max-height: 500px;">
+                    </div>
+                    <div class="card card-profile" id="profile-6" style="cursor:pointer">
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo $output[16]['teks']; ?></h5> <br><br>
+                            <div class="social d-none d-md-flex">
+                                <a href="#">
+                                    <img src="assets/img/in.png" alt="instagram-logo">
+                                </a>
+                            </div>
+                            <p class="card-text"><?php echo $output[17]['teks']; ?></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="bg-secondary w-100 h-100" id="image-6" style="cursor:pointer"></div>
+                    </div>
                 </div>
             </div>
             </div>
