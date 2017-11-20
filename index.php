@@ -1,3 +1,9 @@
+<?php
+include ("config.php");
+$index = "select * from teks where id like 'index%'";
+$result_index = mysqli_query($db, $index);
+$row = mysqli_fetch_array($result_index);
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -262,6 +268,7 @@
             <div class="row pt-5">
                 <div class="col-md-9 mx-auto">
                     <div class="text-center">
+                        <h2><?php echo $row[1]; ?></h2>
                         <h2>“TWO THINGS AWE ME MOST, THE STARRY SKY ABOVE ME AND THE <span class="red">MORAL LAW</span> WITHIN ME.” –IMMANUEL KANT</h2>
                     </div>
                 </div>

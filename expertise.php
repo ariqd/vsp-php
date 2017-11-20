@@ -1,3 +1,12 @@
+<?php
+include ("config.php");
+$query = "select * from teks where id like 'expertise%'";
+$result_expertise = mysqli_query($db, $query);
+$expertise = array();
+
+while ($row = mysqli_fetch_assoc($result_expertise))
+    $expertise[] = $row;
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -64,7 +73,8 @@
                             <div class="col-md-10 mx-auto">
                                 <div class="text-center">
                                 <h2>
-                                    “IN SEEKING A LAWYER, YOU ARE LOOKING FOR AN ADVOCATE, AN <span class="red">EXPERT ADVISOR</span> ON THE LAW AND ON YOUR RIGHTS AND RESPONSIBILITIES, A STRATEGIST, A NEGOTIATOR, AND A LITIGATOR.” –LAURA WASSER
+                                    <?php echo $expertise[0]['teks']; ?>
+<!--                                    “IN SEEKING A LAWYER, YOU ARE LOOKING FOR AN ADVOCATE, AN <span class="red">EXPERT ADVISOR</span> ON THE LAW AND ON YOUR RIGHTS AND RESPONSIBILITIES, A STRATEGIST, A NEGOTIATOR, AND A LITIGATOR.” –LAURA WASSER-->
                                 </h2>
                                 </div>
                             </div>
@@ -76,21 +86,22 @@
                             </div>
                             <div class="col-md-6">
                               <p>
-                                We provide an expert business advice on company rescue, restructuring, and insolvency. <br><br>
-                                Trading in difficult circumstances can result in a wealth of problems, impacting on both
-                                creditors and debtors. Often companies continue to trade in financial circumstances that
-                                could give rise to potential personal liability for the company’s officers as well as possibly
-                                exposing creditors and other stakeholders to greater losses.<br><br>
-                                At VSP, we believe in avoiding formal insolvency proceedings where possible and provide,
-                                where appropriate, clear advice on trading out of difficult circumstances by eliciting support
-                                from stakeholders in financial restructuring.<br><br>
-                                Sometimes formal insolvency processes cannot be avoided in these circumstances, but we will
-                                provide assistance in a full range of insolvency processes carried out under Indonesian laws and regulations.<br><br>
-                                VSP has a very strong and experienced Insolvency & bankruptcy team made up of two receivers
-                                and four associates. We offer solutions to provide legal services in the field of Insolvency
-                                & bankruptcy including applying the Suspension of Debt Payment (PKPU) and Insolvency in the
-                                Commercial Court, assisting and representing the client as Bankrupt/Suspension of Debt Payment
-                                (PKPU) Respondent, as well as assisting clients in Debt Restructuring and Reorganization of the Company. <br><br>
+                                  <?php echo $expertise[1]['teks']; ?>
+<!--                                We provide an expert business advice on company rescue, restructuring, and insolvency. <br><br>-->
+<!--                                Trading in difficult circumstances can result in a wealth of problems, impacting on both-->
+<!--                                creditors and debtors. Often companies continue to trade in financial circumstances that-->
+<!--                                could give rise to potential personal liability for the company’s officers as well as possibly-->
+<!--                                exposing creditors and other stakeholders to greater losses.<br><br>-->
+<!--                                At VSP, we believe in avoiding formal insolvency proceedings where possible and provide,-->
+<!--                                where appropriate, clear advice on trading out of difficult circumstances by eliciting support-->
+<!--                                from stakeholders in financial restructuring.<br><br>-->
+<!--                                Sometimes formal insolvency processes cannot be avoided in these circumstances, but we will-->
+<!--                                provide assistance in a full range of insolvency processes carried out under Indonesian laws and regulations.<br><br>-->
+<!--                                VSP has a very strong and experienced Insolvency & bankruptcy team made up of two receivers-->
+<!--                                and four associates. We offer solutions to provide legal services in the field of Insolvency-->
+<!--                                & bankruptcy including applying the Suspension of Debt Payment (PKPU) and Insolvency in the-->
+<!--                                Commercial Court, assisting and representing the client as Bankrupt/Suspension of Debt Payment-->
+<!--                                (PKPU) Respondent, as well as assisting clients in Debt Restructuring and Reorganization of the Company. <br><br>-->
                               </p>
                                 <div class="hr mt-5"></div>
                             </div>
@@ -102,18 +113,19 @@
                                 </div>
                               <div class="col-md-6">
                                     <p>
-                                      The Litigation Group draws upon VSP rich expertise in corporate, financial and transactional,
-                                      criminal, family, and industrial relations law, forming seamlessly integrated teams that handle
-                                      any related or follow-on matters that arise. VSP manages issues through every stage of the litigation life cycle.<br><br>
-                                      We routinely act on complex and multi-jurisdictional litigation matters. Our global reach gives us
-                                      expertise in local law in multiple jurisdictions and the offices throughout our network we closely
-                                      work with. This is important because many cases could be cross-border and, because the different
-                                      legal systems and cultures have different regulatory regimes, therefore, we do not treat issues such
-                                      as privacy, data protection, employee protection and privilege in the same way.<br><br>
-                                      Consequently, our lawyers are able to provide clients with well-rounded and insightful advice that
-                                      addresses local issues as well as the risks to a global business that arise from cross-border
-                                      investigations. We can credibly present this analysis to regulators across jurisdictions to protect
-                                      our clients’ positions.<br><br>
+                                        <?php echo $expertise[2]['teks']; ?>
+<!--                                      The Litigation Group draws upon VSP rich expertise in corporate, financial and transactional,-->
+<!--                                      criminal, family, and industrial relations law, forming seamlessly integrated teams that handle-->
+<!--                                      any related or follow-on matters that arise. VSP manages issues through every stage of the litigation life cycle.<br><br>-->
+<!--                                      We routinely act on complex and multi-jurisdictional litigation matters. Our global reach gives us-->
+<!--                                      expertise in local law in multiple jurisdictions and the offices throughout our network we closely-->
+<!--                                      work with. This is important because many cases could be cross-border and, because the different-->
+<!--                                      legal systems and cultures have different regulatory regimes, therefore, we do not treat issues such-->
+<!--                                      as privacy, data protection, employee protection and privilege in the same way.<br><br>-->
+<!--                                      Consequently, our lawyers are able to provide clients with well-rounded and insightful advice that-->
+<!--                                      addresses local issues as well as the risks to a global business that arise from cross-border-->
+<!--                                      investigations. We can credibly present this analysis to regulators across jurisdictions to protect-->
+<!--                                      our clients’ positions.<br><br>-->
                                     </p>
                                     <div class="hr mt-5"></div>
                               </div>
@@ -125,20 +137,21 @@
                                 </div>
                               <div class="col-md-6">
                                     <p>
-                                      We have experienced a consistent demand increase for litigation and also alternative
-                                      dispute resolution services in the past few years and have experienced success.<br><br>
-                                      VSP could provide analysis issues and drafts mediation and arbitration clauses in
-                                      international joint venture and other financial and commercial agreements. It provides
-                                      advices on business decisions and plans that pose arbitration and litigation risks, and
-                                      it represents clients in arbitration, mediation and other alternative dispute resolution proceedings.<br><br>
-                                      Also, we will develop strategies to resolve complex disputes that involve negotiation,
-                                      conciliation, multiple claims, parties, jurisdictions and parallel or closely related
-                                      arbitral and judicial proceedings.<br><br>
-
-                                      We actively pursue all avenues of dispute resolution available and advise clients on
-                                      choosing the method most appropriate to them and to a particular matter. Our main priority
-                                      is to resolve disputes in a quick and effective manner with as little disruption to
-                                      business as possible – recognition of this is central to how we approach any matter.
+                                        <?php echo $expertise[3]['teks']; ?>
+<!--                                      We have experienced a consistent demand increase for litigation and also alternative-->
+<!--                                      dispute resolution services in the past few years and have experienced success.<br><br>-->
+<!--                                      VSP could provide analysis issues and drafts mediation and arbitration clauses in-->
+<!--                                      international joint venture and other financial and commercial agreements. It provides-->
+<!--                                      advices on business decisions and plans that pose arbitration and litigation risks, and-->
+<!--                                      it represents clients in arbitration, mediation and other alternative dispute resolution proceedings.<br><br>-->
+<!--                                      Also, we will develop strategies to resolve complex disputes that involve negotiation,-->
+<!--                                      conciliation, multiple claims, parties, jurisdictions and parallel or closely related-->
+<!--                                      arbitral and judicial proceedings.<br><br>-->
+<!---->
+<!--                                      We actively pursue all avenues of dispute resolution available and advise clients on-->
+<!--                                      choosing the method most appropriate to them and to a particular matter. Our main priority-->
+<!--                                      is to resolve disputes in a quick and effective manner with as little disruption to-->
+<!--                                      business as possible – recognition of this is central to how we approach any matter.-->
                                     </p>
                                     <div class="hr my-5"></div>
                               </div>
@@ -147,7 +160,8 @@
                               <div class="col-lg-12">
                                     <div class="text-center">
                                         <h2>
-                                            WE ACTIVELY PURSUE<span class="red"> ALL AVENUES OF DISPUTE RESOLUTION </span> AVAILABLE AND ADVISE CLIENTS ON CHOOSING THE METHOD MOST APPROPRIATE TO THEM AND TO A PARTICULAR MATTER
+                                            <?php echo $expertise[4]['teks']; ?>
+<!--                                            WE ACTIVELY PURSUE<span class="red"> ALL AVENUES OF DISPUTE RESOLUTION </span> AVAILABLE AND ADVISE CLIENTS ON CHOOSING THE METHOD MOST APPROPRIATE TO THEM AND TO A PARTICULAR MATTER-->
                                             <!-- “TO SOLVE THE PROBLEM OF <span class="red">ORGANIZING WORLD PEACE</span> WE MUST ESTABLISH <span class="red">WORLD LAW AND ORDER.</span>” <br>–ARTHUR HENDERSON -->
                                         </h2>
                                     </div>

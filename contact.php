@@ -1,3 +1,12 @@
+<?php
+include ("config.php");
+$query = "select * from teks where id like 'contact%'";
+$result = mysqli_query($db, $query);
+$output = array();
+
+while ($row = mysqli_fetch_assoc($result))
+    $output[] = $row;
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -94,9 +103,10 @@
                             <div class="col-md-10 mx-auto">
                                 <div class="text-center">
                                 <h2>
-                                    "THERE IS NO BETTER WAY OF EXERCISING THE IMAGINATION THAN <span class="red">THE STUDY OF LAW.</span>
-                                    NO POET EVER INTERPRETED NATURE AS FREELY AS A <span class="red">LAWYER INTERPRETS THE TRUTH.</span>"
-                                    -JEAN GIRAUDOUX
+                                    <?php echo $output[0]['teks'] ?>
+<!--                                    "THERE IS NO BETTER WAY OF EXERCISING THE IMAGINATION THAN <span class="red">THE STUDY OF LAW.</span>-->
+<!--                                    NO POET EVER INTERPRETED NATURE AS FREELY AS A <span class="red">LAWYER INTERPRETS THE TRUTH.</span>"-->
+<!--                                    -JEAN GIRAUDOUX-->
                                 </h2>
                                 </div>
                             </div>

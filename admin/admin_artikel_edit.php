@@ -117,6 +117,9 @@ include ("../session.php");
                 <li class="nav-item">
                     <a class="nav-link active" href="admin_artikel.php">Artikel</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="admin_texts.php">Teks</a>
+                </li>
             </ul>
         </nav>
         <main role="main" class="col-sm-9 ml-sm-auto col-md-10 pt-3">

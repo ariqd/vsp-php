@@ -1,3 +1,12 @@
+<?php
+include ("config.php");
+$about = "select * from teks where id like 'about%'";
+$result_about = mysqli_query($db, $about);
+$about = array();
+
+while ($row = mysqli_fetch_assoc($result_about))
+    $about[] = $row;
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -98,7 +107,8 @@
                             <div class="col-lg-10 mx-auto">
                                 <div class="text-center">
                                     <h2>
-                                        “I’VE ALWAYS THOUGHT LEGAL ADDICTIONS ARE<br><span class="red">A GREAT WAY TO CREATE A BUSINESS</span>.”<br>–NOLAN BUSHNELL
+                                        <?php echo $about[0]['teks']; ?>
+<!--                                        “I’VE ALWAYS THOUGHT LEGAL ADDICTIONS ARE<br><span class="red">A GREAT WAY TO CREATE A BUSINESS</span>.”<br>–NOLAN BUSHNELL-->
                                     </h2>
                                 </div>
                             </div>
@@ -117,11 +127,12 @@
                             </div>
                             <div class="col-lg-6 pl-5">
                                 <p class="text-small">
-                                    Dear valued clients,<br><br>
-                                    Welcome to Law Firm Verry Sitorus & Partners (VSP), a grand haven for well-skilled lawyers and qualified defenders that are always marked with its long term excellence. VSP was established in August 28, 2015 with a structured vision for serving the best legal services in the name of justice and unity.<br><br>
-                                    Our best figure is also associated with the demands for numerous cases that are blatantly measured to guarantee our brightest potentials. This is exactly what people need to be able to comprehend a lot of legal matters that are always made to be resolved in a magnificent strategy that we promise to present.<br><br>
-                                    Our mission is to bring the orientation of justice that is quite far from the reach of people who have no abilities with regard to the act of law. We believe that every person possess a mutual equality in pursuing their rights before the Court or even in the corporation schemes. <br><br>
-                                    By the gleam of this explanatory preface, our Firm thanks you deeply and we are looking forward to corresponding with you in all your legal needs.
+                                    <?php echo $about[1]['teks']; ?>
+<!--                                    Dear valued clients,<br><br>-->
+<!--                                    Welcome to Law Firm Verry Sitorus & Partners (VSP), a grand haven for well-skilled lawyers and qualified defenders that are always marked with its long term excellence. VSP was established in August 28, 2015 with a structured vision for serving the best legal services in the name of justice and unity.<br><br>-->
+<!--                                    Our best figure is also associated with the demands for numerous cases that are blatantly measured to guarantee our brightest potentials. This is exactly what people need to be able to comprehend a lot of legal matters that are always made to be resolved in a magnificent strategy that we promise to present.<br><br>-->
+<!--                                    Our mission is to bring the orientation of justice that is quite far from the reach of people who have no abilities with regard to the act of law. We believe that every person possess a mutual equality in pursuing their rights before the Court or even in the corporation schemes. <br><br>-->
+<!--                                    By the gleam of this explanatory preface, our Firm thanks you deeply and we are looking forward to corresponding with you in all your legal needs.-->
 
                               </p>
                             </div>
@@ -173,15 +184,17 @@
                           <div class="row">
                               <div class="col-lg-6 pr-5">
                                   <p class="text-small">
-                                      We are a people business. Being massive in class in the eyes of our clients, means that our people must be excellent. <br><br>
-Aspire to become one of the most high-quality Law Firms; we started our journey in 2015 with Industrial Relations dispute between a labor and the company where she worked, which is one of the biggest companies in Jakarta. Furthermore, the dispute settled in amicable manner between the two parties. <br><br>
-Another case in 2015 was a breach of contract that had been successfully handled by us. Since then, so many parties with various cases coming to us, such as insolvency and bankruptcy cases, suspension of debt payment, criminal, contract review, and contract drafting, and some corporate law-related cases.
+                                      <?php echo $about[2]['teks']; ?>
+<!--                                      We are a people business. Being massive in class in the eyes of our clients, means that our people must be excellent. <br><br>-->
+<!--Aspire to become one of the most high-quality Law Firms; we started our journey in 2015 with Industrial Relations dispute between a labor and the company where she worked, which is one of the biggest companies in Jakarta. Furthermore, the dispute settled in amicable manner between the two parties. <br><br>-->
+<!--Another case in 2015 was a breach of contract that had been successfully handled by us. Since then, so many parties with various cases coming to us, such as insolvency and bankruptcy cases, suspension of debt payment, criminal, contract review, and contract drafting, and some corporate law-related cases.-->
                                 </p>
                               </div>
                               <div class="col-lg-6 pl-5">
                                   <p class="text-small">
-                                      Clients' businesses are our business. We bring a long-term perspective, embracing new ideas and proactively identifying future trends. WE LISTEN TO OUR CLIENTS TO ALLOW US TO UNDERSTAND THEIR CURRENT AND FUTURE NEEDS AND TO SHAPE OUR BUSINESS TO MEET THOSE NEEDS. <br><br>
-Clients share their experiences with us that they value our solidarity, culture, and we honor the spirit of teamwork and collaboration on which our firm was built – but we also provide the benefits of working with an ambitious, forward-looking, and exceptional business. It is also important to us that we are recognized as a responsible lawyer team, wherein we use our skills and resources to pose positive effects in the community.
+                                      <?php echo $about[3]['teks']; ?>
+<!--                                      Clients' businesses are our business. We bring a long-term perspective, embracing new ideas and proactively identifying future trends. WE LISTEN TO OUR CLIENTS TO ALLOW US TO UNDERSTAND THEIR CURRENT AND FUTURE NEEDS AND TO SHAPE OUR BUSINESS TO MEET THOSE NEEDS. <br><br>-->
+<!--Clients share their experiences with us that they value our solidarity, culture, and we honor the spirit of teamwork and collaboration on which our firm was built – but we also provide the benefits of working with an ambitious, forward-looking, and exceptional business. It is also important to us that we are recognized as a responsible lawyer team, wherein we use our skills and resources to pose positive effects in the community.-->
                                   </p>
                               </div>
                           </div>
@@ -189,7 +202,8 @@ Clients share their experiences with us that they value our solidarity, culture,
                               <div class="col-lg-12">
                                   <div class="text-center">
                                       <h2>
-                                         “AS A LAWYER AND A FORMER PROSECUTOR, I KNOW THE LIMITS OF THE POWER AND AUTHORITY OF THE PRESIDENT. <br><span class="red">I KNOW WHAT IS LEGAL AND WHAT IS NOT.</span>” –RODRIGO DUTERTE
+                                          <?php echo $about[4]['teks']; ?>
+<!--                                         “AS A LAWYER AND A FORMER PROSECUTOR, I KNOW THE LIMITS OF THE POWER AND AUTHORITY OF THE PESIDENT. <br><span class="red">I KNOW WHAT IS LEGAL AND WHAT IS NOT.</span>” –RODRIGO DUTERTE-->
                                       </h2>
                                   </div>
                               </div>

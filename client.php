@@ -1,3 +1,12 @@
+<?php
+include ("config.php");
+$query = "select * from teks where id like 'client%'";
+$result = mysqli_query($db, $query);
+$output = array();
+
+while ($row = mysqli_fetch_assoc($result))
+    $output[] = $row;
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -66,7 +75,8 @@
                             <div class="col-md-10 mx-auto">
                                 <div class="text-center">
                                 <h2>
-                                    “I FIRMLY BELIEVE IN THE <span class="red">RULE OF LAW</span> AS THE FOUNDATION FOR ALL OF OUR BASIC RIGHTS.” –SONIA SOTOMAYOR
+                                    <?php echo $output[0]['teks']; ?>
+<!--                                    “I FIRMLY BELIEVE IN THE <span class="red">RULE OF LAW</span> AS THE FOUNDATION FOR ALL OF OUR BASIC RIGHTS.” –SONIA SOTOMAYOR-->
                                 </h2>
                                 </div>
                             </div>
@@ -79,12 +89,12 @@
                             <div class="col-md-6">
                                 <h6 class="line-height-plus"><b>Our Clients and Cases regarding this matter are the following:</b></h6><br>
                                   <p class="line-height-plus">
-                                    PT Panghegar Kana Property<br>
-                                    PT Kembang Delapan Delapan Multi Finance<br>
-                                    PT Vania Karunia Teguh<br>
-                                    PT Danau Winata Indah<br>
-                                    PT Bali Melka
-
+                                      <?php echo $output[1]['teks']; ?>
+<!--                                    PT Panghegar Kana Property<br>-->
+<!--                                    PT Kembang Delapan Delapan Multi Finance<br>-->
+<!--                                    PT Vania Karunia Teguh<br>-->
+<!--                                    PT Danau Winata Indah<br>-->
+<!--                                    PT Bali Melka-->
                                   </p>
                             </div>
                           </div>
@@ -97,13 +107,14 @@
                               <div class="col-md-6">
                                   <h6 class="line-height-plus"><b>Our Clients and Cases regarding this matter are the following:</b></h6><br>
                                     <p class="line-height-plus">
-                                      PT Citra Van Titipan Kilat (Corporate Law) <br>
-                                      PT Assab Steels Indonesia (Corporate Law) <br>
-                                      PT Sigma Indonesia Manufacturing (Corporate Law) <br>
-                                      PT HMS Bergbau Indonesia (Industrial Relations Law) <br>
-                                      PT West Terminal Point (Criminal Law) <br>
-                                      PT Bhakti Investama (Corruption Law) <br>
-                                      Hercules Rozario Marshal (Criminal Law) <br>
+                                        <?php echo $output[2]['teks']; ?>
+<!--                                      PT Citra Van Titipan Kilat (Corporate Law) <br>-->
+<!--                                      PT Assab Steels Indonesia (Corporate Law) <br>-->
+<!--                                      PT Sigma Indonesia Manufacturing (Corporate Law) <br>-->
+<!--                                      PT HMS Bergbau Indonesia (Industrial Relations Law) <br>-->
+<!--                                      PT West Terminal Point (Criminal Law) <br>-->
+<!--                                      PT Bhakti Investama (Corruption Law) <br>-->
+<!--                                      Hercules Rozario Marshal (Criminal Law) <br>-->
                                     </p>
                               </div>
                           </div>

@@ -1,3 +1,12 @@
+<?php
+include ("config.php");
+$query = "select * from teks where id like 'lawyers%' order by id + 0";
+$result = mysqli_query($db, $query);
+$output = array();
+
+while ($row = mysqli_fetch_assoc($result))
+    $output[] = $row;
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -63,11 +72,9 @@
                             <div class="col-md-12">
                                 <div class="text-center">
                                     <h2>
-                                        "TEAMWORK IS THE ABILITY TO <span class="red">WORK TOGETHER</span> TOWARD A COMMON VISION. THE ABILITY TO DIRECT INDIVIDUAL ACCOMPLISHMENTS TOWARD ORGANIZATIONAL OBJECTIVES. IT IS THE FUEL THAT ALLOWS COMMON PEOPLE <br><span class="red">TO ATTAIN UNCOMMON RESULTS.</span>" - ANDREW CARNEGIE
+                                        <?php echo $output[0]['teks']; ?>
+<!--                                        "TEAMWORK IS THE ABILITY TO <span class="red">WORK TOGETHER</span> TOWARD A COMMON VISION. THE ABILITY TO DIRECT INDIVIDUAL ACCOMPLISHMENTS TOWARD ORGANIZATIONAL OBJECTIVES. IT IS THE FUEL THAT ALLOWS COMMON PEOPLE <br><span class="red">TO ATTAIN UNCOMMON RESULTS.</span>" - ANDREW CARNEGIE-->
                                     </h2>
-                                <!-- <h2>
-                                    A GRAND HAVEN FOR <span class="red">WELL-SKILLED LAWYERS AND QUALIFIED DEFENDERS</span> THAT ARE ALWAYS MARKED WITH ITS LONG TERM EXCELLENCE
-                                </h2> -->
                                 </div>
                             </div>
                         </div>
@@ -80,18 +87,20 @@
                 <div class="card-group my-4">
                 <div class="card card-profile" id="profile-1" style="cursor:pointer">
                   <div class="card-body">
-                    <h5 class="card-title">Managing Partner</h5><br>
+                    <h5 class="card-title">
+                        <?php echo $output[1]['teks']; ?>
+                    </h5><br>
                     <div class="social">
                         <a href="#">
 
 
                         </a> <br>
-                        <a href="https://id.linkedin.com/in/verry-sitorus-b400a148" target="_blank">
+                        <a href="<?php echo $output[3]['teks']; ?>" target="_blank">
                           <img src="assets/img/in.png" alt="instagram-logo">
                             <!-- <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px"> -->
                         </a>
                     </div>
-                    <p class="card-text">Verry Sitorus, S.H</p>
+                    <p class="card-text"><?php echo $output[2]['teks']; ?></p>
                   </div>
                 </div>
                 <div class="card" style="cursor:pointer">
@@ -99,17 +108,17 @@
                 </div>
                   <div class="card card-profile" id="profile-2" style="cursor:pointer">
                     <div class="card-body">
-                      <h5 class="card-title">Advocate &amp; Curator</h5> <br>
+                      <h5 class="card-title"><?php echo $output[4]['teks']; ?></h5> <br>
                       <div class="social">
                           <a href="#">
 
                           </a> <br>
-                          <a href="https://id.linkedin.com/in/nofrizal-sihin-9a833796" target="_blank">
+                          <a href="<?php echo $output[6]['teks']; ?>" target="_blank">
                             <img src="assets/img/in.png" alt="instagram-logo">
                               <!-- <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px"> -->
                           </a>
                       </div>
-                      <p class="card-text">Nofrizal, S.Kom,<br>S.H., M.H.</p>
+                      <p class="card-text"><?php echo $output[5]['teks']; ?></p>
                     </div>
                   </div>
                   <div class="card">
@@ -121,17 +130,17 @@
                   </div>
                   <div class="card card-profile" id="profile-3" style="cursor:pointer">
                     <div class="card-body">
-                      <h5 class="card-title">Advocate</h5> <br>
+                      <h5 class="card-title"><?php echo $output[7]['teks']; ?></h5> <br>
                       <div class="social">
                           <a href="#">
 
                           </a> <br>
-                          <a href="https://www.linkedin.com/in/syarifah-meutia-zahra-a80931150/" target="_blank">
+                          <a href="<?php echo $output[9]['teks']; ?>" target="_blank">
                             <img src="assets/img/in.png" alt="instagram-logo">
                               <!-- <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px" style="margin-top:-1px"> -->
                           </a>
                       </div>
-                      <p class="card-text">Syarifah Meutia<br>Zahra, S.H.</p>
+                      <p class="card-text"><?php echo $output[8]['teks']; ?>.</p>
                     </div>
                   </div>
                   <div class="card card-image">
@@ -139,33 +148,33 @@
                   </div>
                   <div class="card card-profile" id="profile-4" style="cursor:pointer">
                     <div class="card-body">
-                      <h5 class="card-title">Advocate</h5> <br>
+                      <h5 class="card-title"><?php echo $output[10]['teks']; ?></h5> <br>
                       <div class="social">
                           <a href="#">
 
                           </a> <br>
-                          <a href="https://id.linkedin.com/in/maria-veronika-napitupulu-485303bb" target="_blank">
+                          <a href="<?php echo $output[12]['teks']; ?>" target="_blank">
                             <img src="assets/img/in.png" alt="instagram-logo">
                               <!-- <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px"> -->
                           </a>
                       </div>
-                      <p class="card-text">Maria Veronika <br> Napitupulu, S.H.</p>
+                      <p class="card-text"><?php echo $output[11]['teks']; ?></p>
                     </div>
                   </div>
                   <div class="w-100"></div>
                   <div class="card card-profile" id="profile-5" style="cursor:pointer">
                     <div class="card-body">
-                      <h5 class="card-title">Advocate</h5> <br>
+                      <h5 class="card-title"><?php echo $output[13]['teks']; ?></h5> <br>
                       <div class="social">
                           <a href="#">
 
                           </a> <br>
-                          <a href="https://www.linkedin.com/in/grace-dina-mariana-sitinjak-s-h-a92630a8/" target="_blank">
+                          <a href="<?php echo $output[15]['teks']; ?>" target="_blank">
                             <img src="assets/img/in.png" alt="instagram-logo">
                               <!-- <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px"> -->
                           </a>
                       </div>
-                      <p class="card-text">Grace Dina Mariana <br> Sitinjak, S.H.</p>
+                      <p class="card-text"><?php echo $output[14]['teks']; ?></p>
                     </div>
                   </div>
                   <div class="card">
@@ -173,17 +182,17 @@
                   </div>
                   <div class="card card-profile" id="profile-6" style="cursor:pointer">
                     <div class="card-body">
-                      <h5 class="card-title">Staff</h5> <br>
+                      <h5 class="card-title"><?php echo $output[16]['teks']; ?></h5> <br>
                       <div class="social">
                           <a href="#">
 
                           </a> <br>
                           <a href="#">
-                            <img src="assets/img/in.png" alt="instagram-logo">
-                              <!-- <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px"> -->
+                            <img src="assets/img/in.png" alt="linkedin-logo">
+<!--                               <img src="assets/img/fb.png" alt="facebook-logo" style="margin-top:-1px"> -->
                           </a>
                       </div>
-                      <p class="card-text">Hani Nisfika<br>Herma, A.Md.</p>
+                      <p class="card-text"><?php echo $output[17]['teks']; ?></p>
                     </div>
                   </div>
                   <div class="card">
