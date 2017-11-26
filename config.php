@@ -1,5 +1,5 @@
 <?php
-
+header("Content-Type: text/html; charset=ISO-8859-1");
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');

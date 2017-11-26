@@ -1,5 +1,6 @@
 <?php
-include ('config.php');
+include ("config.php");
+header("Content-Type: text/html; charset=ISO-8859-1");
 $id = $_GET['id'];
 $query = "SELECT news.*, kategori.nama FROM news JOIN kategori ON news.id_kategori = kategori.id_kategori WHERE news.id_news = $id";
 $news = mysqli_query($db, $query);

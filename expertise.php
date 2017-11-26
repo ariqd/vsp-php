@@ -1,5 +1,6 @@
 <?php
 include ("config.php");
+header("Content-Type: text/html; charset=ISO-8859-1");
 $query = "select * from teks where id like 'expertise%'";
 $result_expertise = mysqli_query($db, $query);
 $expertise = array();

@@ -1,5 +1,6 @@
 <?php
 include ("config.php");
+header("Content-Type: text/html; charset=ISO-8859-1");
 $query = "select * from teks where id like 'lawyers%' order by id + 0";
 $result = mysqli_query($db, $query);
 $output = array();
@@ -97,7 +98,7 @@ while ($row = mysqli_fetch_assoc($result))
                         </div>
                     </div>
                     <div class="card" style="cursor:pointer">
-                        <img class="card-img-top" src="assets/img/1.png" id="image-1" style="max-height: 500px;">
+                        <img class="card-img-top img-fluid" src="assets/img/1.png" id="image-1" style="max-height: 500px;">
                     </div>
                     <div class="card card-profile" id="profile-2" style="cursor:pointer">
                         <div class="card-body">
@@ -159,17 +160,46 @@ while ($row = mysqli_fetch_assoc($result))
                     </div>
                     <div class="card card-profile" id="profile-6" style="cursor:pointer">
                         <div class="card-body">
-                            <h5 class="card-title"><?php echo $output[16]['teks']; ?></h5> <br><br>
+                            <h5 class="card-title"><?php echo $output[19]['teks']; ?></h5> <br><br>
                             <div class="social d-none d-md-flex">
                                 <a href="#">
                                     <img src="assets/img/in.png" alt="instagram-logo">
                                 </a>
                             </div>
-                            <p class="card-text"><?php echo $output[17]['teks']; ?></p>
+                            <p class="card-text"><?php echo $output[18]['teks']; ?></p>
                         </div>
                     </div>
                     <div class="card">
-                        <div class="bg-secondary w-100 h-100" id="image-6" style="cursor:pointer"></div>
+                        <img class="card-img-top" src="assets/img/daniel.jpg" id="image-6" style="cursor:pointer;">
+                    </div>
+                    <div class="w-100"></div>
+                    <div class="card card-image">
+                        <img class="card-image card-img-top" id="image-9" src="assets/img/Madyastha.jpg" style="cursor:pointer;max-height: 500px;">
+                    </div>
+                    <div class="card card-profile" id="profile-9" style="cursor:pointer">
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo $output[21]['teks']; ?></h5> <br><br>
+                            <div class="social d-none d-md-flex">
+                                <a href="#" target="_blank">
+                                    <img src="assets/img/in.png" alt="instagram-logo">
+                                </a>
+                            </div>
+                            <p class="card-text"><?php echo $output[20]['teks']; ?></p>
+                        </div>
+                    </div>
+                    <div class="card card-image">
+                        <div class="bg-secondary w-100 h-100" id="image-8" style="cursor:pointer"></div>
+                    </div>
+                    <div class="card card-profile" id="profile-4" style="cursor:pointer">
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo $output[16]['teks']; ?></h5> <br><br>
+                            <div class="social d-none d-md-flex">
+                                <a href="#" target="_blank">
+                                    <img src="assets/img/in.png" alt="instagram-logo">
+                                </a>
+                            </div>
+                            <p class="card-text"><?php echo $output[17]['teks']; ?></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -247,48 +277,63 @@ while ($row = mysqli_fetch_assoc($result))
                     $('#profile-6').removeClass('main', '100');
                 })
 
-                $('#profile-1').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-verry.php';
-                });
-                $('#image-1').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-verry.php';
-                });
-
-                $('#profile-2').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-nofrizal.php';
-                });
-                $('#image-2').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-nofrizal.php';
-                });
-
-                $('#profile-3').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-syarifah.php';
-                });
-                $('#image-3').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-syarifah.php';
-                });
-
-                $('#profile-4').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-maria.php';
-                });
-                $('#image-4').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-maria.php';
-                });
-
-                $('#profile-5').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-grace.php';
-                });
-                $('#image-5').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-grace.php';
-                });
-
-                $('#profile-6').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-hani.php';
-                });
-                $('#image-6').on('click', function(event) {
-                     window.location = 'lawyers/lawyers-hani.php';
-                });
+            $('#profile-1').on('click', function(event) {
+                window.location = 'lawyers/lawyers-verry.php';
             });
+            $('#image-1').on('click', function(event) {
+                window.location = 'lawyers/lawyers-verry.php';
+            });
+
+            $('#profile-2').on('click', function(event) {
+                window.location = 'lawyers/lawyers-nofrizal.php';
+            });
+            $('#image-2').on('click', function(event) {
+                window.location = 'lawyers/lawyers-nofrizal.php';
+            });
+
+            $('#profile-3').on('click', function(event) {
+                window.location = 'lawyers/lawyers-syarifah.php';
+            });
+            $('#image-3').on('click', function(event) {
+                window.location = 'lawyers/lawyers-syarifah.php';
+            });
+
+            $('#profile-4').on('click', function(event) {
+                window.location = 'lawyers/lawyers-maria.php';
+            });
+            $('#image-4').on('click', function(event) {
+                window.location = 'lawyers/lawyers-maria.php';
+            });
+
+            $('#profile-5').on('click', function(event) {
+                window.location = 'lawyers/lawyers-grace.php';
+            });
+            $('#image-5').on('click', function(event) {
+                window.location = 'lawyers/lawyers-grace.php';
+            });
+
+            $('#profile-6').on('click', function(event) {
+                window.location = 'lawyers/lawyers-daniel.php';
+            });
+            $('#image-6').on('click', function(event) {
+                window.location = 'lawyers/lawyers-daniel.php';
+            });
+
+            $('#profile-8').on('click', function(event) {
+                window.location = 'lawyers/lawyers-hani.php';
+            });
+            $('#image-8').on('click', function(event) {
+                window.location = 'lawyers/lawyers-hani.php';
+            });
+
+            $('#profile-9').on('click', function(event) {
+                window.location = 'lawyers/lawyers-madyastha.php';
+            });
+            $('#image-9').on('click', function(event) {
+                window.location = 'lawyers/lawyers-madyastha.php';
+            });
+            });
+
         </script>
     </body>
 </html>

@@ -1,5 +1,7 @@
 <?php
 include ("config.php");
+include ("tanggal.php");
+header("Content-Type: text/html; charset=ISO-8859-1");
 $index = "select * from teks where id like 'index%'";
 $result_index = mysqli_query($db, $index);
 $row = mysqli_fetch_array($result_index);
@@ -7,9 +9,16 @@ $row = mysqli_fetch_array($result_index);
 $query = "select * from teks where id like 'lawyers%' order by id + 0";
 $result = mysqli_query($db, $query);
 $output = array();
-
 while ($lawyers = mysqli_fetch_assoc($result))
     $output[] = $lawyers;
+
+$query_news = "SELECT news.*, kategori.nama FROM news JOIN kategori ON news.id_kategori = kategori.id_kategori ORDER BY news.nomor ASC";
+$result_news = mysqli_query($db, $query_news);
+$news = array();
+while ($row = mysqli_fetch_assoc($result_news))
+    $news[] = $row;
+
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -138,36 +147,36 @@ while ($lawyers = mysqli_fetch_assoc($result))
             </div>
             <div class="row py-5 no-gutters mt-5">
                 <div class="col-lg-6 col-md-12">
-                    <a href="news3.php" class="card bg-dark text-white card-news">
-                        <img class="card-img img-fluid" src="assets/img/news1.jpg" alt="Card image" style="height:450px;">
+                    <a href="news.php?id=<?php echo $news[0]['id_news'];?>" class="card bg-dark text-white card-news">
+                        <img class="card-img img-fluid" src="assets/img/<?php echo $news[0]['gambar'] ?>" alt="Card image" style="height:450px;">
                         <div class="card-img-overlay">
-                        <p class="card-text">CASES NEWS</p>
-                        <h3 class="card-title">James Gunardjo Tidak Lama Lagi Disidangkan</h3>
-                        <p class="card-text date">3 Agustus 2012 | DKI Jakarta</p>
-                      </div>
+                            <p class="card-text"><?php echo strip_tags($news[0]['nama']) ?></p>
+                            <h3 class="card-title"><?php echo strip_tags($news[0]['judul']) ?></h3>
+                            <p class="card-text date"><?php echo tanggal_indo($news[0]['tgl_buat'])?></p>
+                        </div>
                     </a>
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="row">
                         <div class="col-12">
-                            <a href="news1.php" class="card bg-dark text-white card-news">
-                              <img class="card-img img-fluid" src="assets/img/news2.png" alt="Card image" style="height:225px;">
-                              <div class="card-img-overlay">
-                                <p class="card-text">POINT OF VIEW NEWS</p>
-                                <h4 class="card-title">PT Kembang 88 Multifinance Berusaha Ekstra Untuk Mengubah Keputusan PT Bank Negara Indonesia.</h4>
-                                <p class="card-text date">DKI Jakarta</p>
-                              </div>
+                            <a href="news.php?id=<?php echo $news[1]['id_news'];?>" class="card bg-dark text-white card-news">
+                                <img class="card-img img-fluid" src="assets/img/<?php echo $news[1]['gambar'] ?>" alt="Card image" style="height:225px;">
+                                <div class="card-img-overlay">
+                                    <p class="card-text"><?php echo strip_tags($news[1]['nama']) ?></p>
+                                    <h4 class="card-title"><?php echo strip_tags($news[1]['judul']) ?></h4>
+                                    <p class="card-text date"><?php echo tanggal_indo($news[1]['tgl_buat'])?></p>
+                                </div>
                             </a>
                         </div>
                         <div class="w-100"></div>
                         <div class="col-12">
-                            <a href="news2.php" class="card bg-dark text-white card-news">
-                              <img class="card-img img-fluid" src="assets/img/news3.png" alt="Card image" style="height:225px;">
-                              <div class="card-img-overlay">
-                                <p class="card-text">OPINION</p>
-                                <h4 class="card-title">PT Kembang 88 Multifinance Siap Meladeni Permohonan Kasasi yang Diajukan oleh Dua Krediturnya.</h4>
-                                <p class="card-text date">DKI Jakarta</p>
-                              </div>
+                            <a href="news.php?id=<?php echo $news[2]['id_news'];?>" class="card bg-dark text-white card-news">
+                                <img class="card-img img-fluid" src="assets/img/<?php echo $news[2]['gambar'] ?>" alt="Card image" style="height:225px;">
+                                <div class="card-img-overlay">
+                                    <p class="card-text"><?php echo strip_tags($news[2]['nama']) ?></p>
+                                    <h4 class="card-title"><?php echo strip_tags($news[2]['judul']) ?></h4>
+                                    <p class="card-text date"><?php echo tanggal_indo($news[2]['tgl_buat'])?></p>
+                                </div>
                             </a>
                         </div>
                     </div>
@@ -196,7 +205,7 @@ while ($lawyers = mysqli_fetch_assoc($result))
                   </div>
                 </div>
                 <div class="card" style="cursor:pointer">
-                  <img class="card-img-top" src="assets/img/1.png" id="image-1" style="max-height: 500px;">
+                  <img class="card-img-top img-fluid" src="assets/img/1.png" id="image-1" style="max-height: 500px;">
                 </div>
                   <div class="card card-profile" id="profile-2" style="cursor:pointer">
                     <div class="card-body">
@@ -228,7 +237,7 @@ while ($lawyers = mysqli_fetch_assoc($result))
                     </div>
                   </div>
                   <div class="card card-image">
-                    <img class="card-img-top" src="assets/img/4.png" class="card-image" style="cursor:pointer;max-height: 500px;">
+                    <img class="card-image card-img-top" src="assets/img/4.png" style="cursor:pointer;max-height: 500px;">
                   </div>
                   <div class="card card-profile" id="profile-4" style="cursor:pointer">
                     <div class="card-body">
@@ -258,25 +267,53 @@ while ($lawyers = mysqli_fetch_assoc($result))
                   </div>
                   <div class="card card-profile" id="profile-6" style="cursor:pointer">
                     <div class="card-body">
-                      <h5 class="card-title"><?php echo $output[16]['teks']; ?></h5> <br><br>
+                      <h5 class="card-title"><?php echo $output[19]['teks']; ?></h5> <br><br>
                       <div class="social d-none d-md-flex">
                           <a href="#">
                             <img src="assets/img/in.png" alt="instagram-logo">
                           </a>
                       </div>
-                      <p class="card-text"><?php echo $output[17]['teks']; ?></p>
+                      <p class="card-text"><?php echo $output[18]['teks']; ?></p>
                     </div>
                   </div>
                   <div class="card">
-                      <div class="bg-secondary w-100 h-100" id="image-6" style="cursor:pointer"></div>
+                      <img class="card-img-top" src="assets/img/daniel.jpg" id="image-6" style="cursor:pointer;">
                   </div>
+                    <div class="w-100"></div>
+                    <div class="card card-image">
+                        <img class="card-image card-img-top" id="image-9" src="assets/img/Madyastha.jpg" style="cursor:pointer;max-height: 500px;">
+                    </div>
+                    <div class="card card-profile" id="profile-9" style="cursor:pointer">
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo $output[21]['teks']; ?></h5> <br><br>
+                            <div class="social d-none d-md-flex">
+                                <a href="#" target="_blank">
+                                    <img src="assets/img/in.png" alt="instagram-logo">
+                                </a>
+                            </div>
+                            <p class="card-text"><?php echo $output[20]['teks']; ?></p>
+                        </div>
+                    </div>
+                    <div class="card card-image">
+                        <div class="bg-secondary w-100 h-100" id="image-8" style="cursor:pointer"></div>
+                    </div>
+                    <div class="card card-profile" id="profile-4" style="cursor:pointer">
+                        <div class="card-body">
+                            <h5 class="card-title"><?php echo $output[16]['teks']; ?></h5> <br><br>
+                            <div class="social d-none d-md-flex">
+                                <a href="#" target="_blank">
+                                    <img src="assets/img/in.png" alt="instagram-logo">
+                                </a>
+                            </div>
+                            <p class="card-text"><?php echo $output[17]['teks']; ?></p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="row pt-5">
                 <div class="col-md-9 mx-auto">
                     <div class="text-center">
                         <h2><?php echo $row[1]; ?></h2>
-<!--                        <h2>“TWO THINGS AWE ME MOST, THE STARRY SKY ABOVE ME AND THE <span class="red">MORAL LAW</span> WITHIN ME.” –IMMANUEL KANT</h2>-->
                     </div>
                 </div>
             </div>
@@ -353,7 +390,6 @@ while ($lawyers = mysqli_fetch_assoc($result))
                 }, function () {
                     $('#profile-6').removeClass('main', '100');
                 })
-            });
 
             $('#profile-1').on('click', function(event) {
                  window.location = 'lawyers/lawyers-verry.php';
@@ -391,11 +427,27 @@ while ($lawyers = mysqli_fetch_assoc($result))
             });
 
             $('#profile-6').on('click', function(event) {
-                 window.location = 'lawyers/lawyers-hani.php';
+                window.location = 'lawyers/lawyers-daniel.php';
             });
             $('#image-6').on('click', function(event) {
+                window.location = 'lawyers/lawyers-daniel.php';
+            });
+
+            $('#profile-8').on('click', function(event) {
                  window.location = 'lawyers/lawyers-hani.php';
             });
+            $('#image-8').on('click', function(event) {
+                 window.location = 'lawyers/lawyers-hani.php';
+            });
+
+            $('#profile-9').on('click', function(event) {
+                window.location = 'lawyers/lawyers-madyastha.php';
+            });
+            $('#image-9').on('click', function(event) {
+                window.location = 'lawyers/lawyers-madyastha.php';
+            });
+            });
+
         </script>
     </body>
 </html>

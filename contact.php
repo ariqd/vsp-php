@@ -1,5 +1,6 @@
 <?php
 include ("config.php");
+header("Content-Type: text/html; charset=ISO-8859-1");
 $query = "select * from teks where id like 'contact%'";
 $result = mysqli_query($db, $query);
 $output = array();
