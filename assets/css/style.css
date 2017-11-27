@@ -255,10 +255,32 @@ footer p {
     margin-left: -250px;
 }
 
-@media (max-width: 576px) {
+.card-profile {
+    height: 282px;
+}
+
+.card-image img {
+    height: 280px;
+}
+
+@media (max-width: 991px) {
+    .card-profile {
+        height: 190px;
+    }
+
+    .card-image img {
+        height: 580px;
+    }
+}
+
+@media (max-width: 575px) {
     .section {
         margin-top: 0;
         padding: 30px;
+    }
+
+    .card-image img {
+        height: 350px;
     }
 }
 
@@ -627,7 +649,7 @@ footer p {
     width: 100%;
    }
 
-   .section-map {
+   .section .section-map {
        background-color: #fff;
        margin-top: -150px;
        padding: 80px 100px 0px 80px;

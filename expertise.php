@@ -30,7 +30,7 @@ while ($row = mysqli_fetch_assoc($result_expertise))
         <nav class="navbar navbar-expand-lg navbar-light navbar-vsp my-4">
             <div class="container">
                 <a class="navbar-brand" href="index.php">
-                    <img src="assets/img/logo.png" alt="logo" width="180">
+                    <img src="assets/img/logo.png" alt="logo" width="350">
                 </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -75,7 +75,6 @@ while ($row = mysqli_fetch_assoc($result_expertise))
                                 <div class="text-center">
                                 <h2>
                                     <?php echo $expertise[0]['teks']; ?>
-<!--                                    “IN SEEKING A LAWYER, YOU ARE LOOKING FOR AN ADVOCATE, AN <span class="red">EXPERT ADVISOR</span> ON THE LAW AND ON YOUR RIGHTS AND RESPONSIBILITIES, A STRATEGIST, A NEGOTIATOR, AND A LITIGATOR.” –LAURA WASSER-->
                                 </h2>
                                 </div>
                             </div>

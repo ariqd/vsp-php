@@ -58,7 +58,7 @@ while ($row = mysqli_fetch_assoc($result))
         <nav class="navbar navbar-expand-lg navbar-light navbar-vsp my-4">
             <div class="container">
                 <a class="navbar-brand" href="index.php">
-                    <img src="assets/img/logo.png" alt="logo" width="180">
+                    <img src="assets/img/logo.png" alt="logo" width="350">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -99,16 +99,13 @@ while ($row = mysqli_fetch_assoc($result))
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="section-map">
+                    <div class="section .section-map">
                         <div class="row pb-5">
                             <div class="col-md-10 mx-auto">
                                 <div class="text-center">
-                                <h2>
-                                    <?php echo $output[0]['teks'] ?>
-<!--                                    "THERE IS NO BETTER WAY OF EXERCISING THE IMAGINATION THAN <span class="red">THE STUDY OF LAW.</span>-->
-<!--                                    NO POET EVER INTERPRETED NATURE AS FREELY AS A <span class="red">LAWYER INTERPRETS THE TRUTH.</span>"-->
-<!--                                    -JEAN GIRAUDOUX-->
-                                </h2>
+                                    <h2>
+                                        <?php echo $output[0]['teks'] ?>
+                                    </h2>
                                 </div>
                             </div>
                         </div>

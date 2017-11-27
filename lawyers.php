@@ -29,7 +29,7 @@ while ($row = mysqli_fetch_assoc($result))
         <nav class="navbar navbar-expand-lg navbar-light navbar-vsp my-4">
             <div class="container">
                 <a class="navbar-brand" href="index.php">
-                    <img src="assets/img/logo.png" alt="logo" width="180">
+                    <img src="assets/img/logo.png" alt="logo" width="350">
                 </a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -74,7 +74,6 @@ while ($row = mysqli_fetch_assoc($result))
                                 <div class="text-center">
                                     <h2>
                                         <?php echo $output[0]['teks']; ?>
-<!--                                        "TEAMWORK IS THE ABILITY TO <span class="red">WORK TOGETHER</span> TOWARD A COMMON VISION. THE ABILITY TO DIRECT INDIVIDUAL ACCOMPLISHMENTS TOWARD ORGANIZATIONAL OBJECTIVES. IT IS THE FUEL THAT ALLOWS COMMON PEOPLE <br><span class="red">TO ATTAIN UNCOMMON RESULTS.</span>" - ANDREW CARNEGIE-->
                                     </h2>
                                 </div>
                             </div>
@@ -84,125 +83,156 @@ while ($row = mysqli_fetch_assoc($result))
                </div>
             </div>
             <div class="container">
-            <div class="row no-gutters pb-5">
-                <div class="card-group my-4 w-100">
-                    <div class="card card-profile" id="profile-1" style="cursor:pointer">
-                        <div class="card-body">
-                            <h5 class="card-title"><?php echo $output[1]['teks']; ?></h5> <br>
-                            <div class="social d-none d-md-flex">
-                                <a href="<?php echo $output[3]['teks']; ?>" target="_blank">
-                                    <img src="assets/img/in.png" alt="instagram-logo">
-                                </a>
+                <div class="row no-gutters my-5">
+
+                    <!-- Blok 1 -->
+                    <div class="col-lg-3">
+                        <div class="card card-profile" id="profile-1" style="cursor: pointer;">
+                            <div class="card-body">
+                                <h5 class="card-title"><?php echo $output[1]['teks']; ?></h5> <br>
+                                <div class="social">
+                                    <a href="<?php echo $output[3]['teks']; ?>" target="_blank">
+                                        <img src="assets/img/in.png" alt="instagram-logo">
+                                    </a>
+                                </div>
+                                <p class="card-text"><?php echo $output[2]['teks']; ?></p>
                             </div>
-                            <p class="card-text"><?php echo $output[2]['teks']; ?></p>
                         </div>
                     </div>
-                    <div class="card" style="cursor:pointer">
-                        <img class="card-img-top img-fluid" src="assets/img/1.png" id="image-1" style="max-height: 500px;">
-                    </div>
-                    <div class="card card-profile" id="profile-2" style="cursor:pointer">
-                        <div class="card-body">
-                            <h5 class="card-title"><?php echo $output[4]['teks']; ?></h5> <br><br>
-                            <div class="social d-none d-md-flex">
-                                <a href="<?php echo $output[6]['teks']; ?>" target="_blank">
-                                    <img src="assets/img/in.png" alt="instagram-logo">
-                                </a>
-                            </div>
-                            <p class="card-text"><?php echo $output[5]['teks']; ?></p>
+                    <div class="col-lg-9">
+                        <div class="card card-image" style="cursor: pointer;">
+                            <img src="assets/img/01.jpg" id="image-1" style="height: 280px">
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="assets/img/2.png" id="image-2" style="cursor:pointer;max-height: 500px;">
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="card card-image">
-                        <img class="card-img-top" src="assets/img/6.png" class="card-image" style="cursor:pointer;max-height: 500px;">
-                    </div>
-                    <div class="card card-profile" id="profile-3" style="cursor:pointer">
-                        <div class="card-body">
-                            <h5 class="card-title"><?php echo $output[7]['teks']; ?></h5> <br><br>
-                            <div class="social d-none d-md-flex">
-                                <a href="<?php echo $output[9]['teks']; ?>" target="_blank">
-                                    <img src="assets/img/in.png" alt="instagram-logo">
-                                </a>
-                            </div>
-                            <p class="card-text"><?php echo $output[8]['teks']; ?></p>
+                    <!--                <div class="col-lg-3">-->
+                    <!--                    <div class="card card-profile" id="profile-1-2" style="cursor: pointer;">-->
+                    <!--                        <div class="card-body">-->
+                    <!--                            <p>&nbsp;</p>-->
+                    <!--                        </div>-->
+                    <!--                    </div>-->
+                    <!--                </div>-->
+
+                    <!-- Blok 2 -->
+                    <div class="col-lg-3">
+                        <div class="card card-image" style="cursor: pointer;">
+                            <img src="assets/img/2.png" id="image-2">
                         </div>
                     </div>
-                    <div class="card card-image">
-                        <img class="card-img-top" src="assets/img/4.png" class="card-image" style="cursor:pointer;max-height: 500px;">
-                    </div>
-                    <div class="card card-profile" id="profile-4" style="cursor:pointer">
-                        <div class="card-body">
-                            <h5 class="card-title"><?php echo $output[10]['teks']; ?></h5> <br><br>
-                            <div class="social d-none d-md-flex">
-                                <a href="<?php echo $output[12]['teks']; ?>" target="_blank">
-                                    <img src="assets/img/in.png" alt="instagram-logo">
-                                </a>
+                    <div class="col-lg-3">
+                        <div class="card card-profile" id="profile-2" style="cursor: pointer;">
+                            <div class="card-body">
+                                <h5 class="card-title"><?php echo $output[4]['teks']; ?></h5> <br><br>
+                                <div class="social d-none d-md-flex">
+                                    <a href="<?php echo $output[6]['teks']; ?>" target="_blank">
+                                        <img src="assets/img/in.png" alt="instagram-logo">
+                                    </a>
+                                </div>
+                                <p class="card-text"><?php echo $output[5]['teks']; ?></p>
                             </div>
-                            <p class="card-text"><?php echo $output[11]['teks']; ?></p>
                         </div>
                     </div>
-                    <div class="w-100"></div>
-                    <div class="card card-profile" id="profile-5" style="cursor:pointer">
-                        <div class="card-body">
-                            <h5 class="card-title"><?php echo $output[13]['teks']; ?></h5> <br><br>
-                            <div class="social d-none d-md-flex">
-                                <a href="<?php echo $output[15]['teks']; ?>" target="_blank">
-                                    <img src="assets/img/in.png" alt="instagram-logo">
-                                </a>
-                            </div>
-                            <p class="card-text"><?php echo $output[14]['teks']; ?></p>
+
+                    <!-- Blok 3 -->
+                    <div class="col-lg-3">
+                        <div class="card card-image">
+                            <img id="image-4" src="assets/img/4.png" style="cursor:pointer">
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="assets/img/5.png" id="image-5" style="cursor:pointer;max-height: 500px;">
-                    </div>
-                    <div class="card card-profile" id="profile-6" style="cursor:pointer">
-                        <div class="card-body">
-                            <h5 class="card-title"><?php echo $output[19]['teks']; ?></h5> <br><br>
-                            <div class="social d-none d-md-flex">
-                                <a href="#">
-                                    <img src="assets/img/in.png" alt="instagram-logo">
-                                </a>
+                    <div class="col-lg-3">
+                        <div class="card card-profile" id="profile-4" style="cursor:pointer">
+                            <div class="card-body">
+                                <h5 class="card-title"><?php echo $output[10]['teks']; ?></h5> <br><br>
+                                <div class="social d-none d-md-flex">
+                                    <a href="<?php echo $output[12]['teks']; ?>" target="_blank">
+                                        <img src="assets/img/in.png" alt="instagram-logo">
+                                    </a>
+                                </div>
+                                <p class="card-text"><?php echo $output[11]['teks']; ?></p>
                             </div>
-                            <p class="card-text"><?php echo $output[18]['teks']; ?></p>
                         </div>
                     </div>
-                    <div class="card">
-                        <img class="card-img-top" src="assets/img/daniel.jpg" id="image-6" style="cursor:pointer;">
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="card card-image">
-                        <img class="card-image card-img-top" id="image-9" src="assets/img/Madyastha.jpg" style="cursor:pointer;max-height: 500px;">
-                    </div>
-                    <div class="card card-profile" id="profile-9" style="cursor:pointer">
-                        <div class="card-body">
-                            <h5 class="card-title"><?php echo $output[21]['teks']; ?></h5> <br><br>
-                            <div class="social d-none d-md-flex">
-                                <a href="#" target="_blank">
-                                    <img src="assets/img/in.png" alt="instagram-logo">
-                                </a>
+
+                    <!-- Blok 4 -->
+                    <div class="col-lg-3">
+                        <div class="card card-profile" id="profile-3" style="cursor:pointer">
+                            <div class="card-body">
+                                <h5 class="card-title"><?php echo $output[7]['teks']; ?></h5> <br><br>
+                                <div class="social">
+                                    <a href="<?php echo $output[9]['teks']; ?>" target="_blank">
+                                        <img src="assets/img/in.png" alt="instagram-logo">
+                                    </a>
+                                </div>
+                                <p class="card-text"><?php echo $output[8]['teks']; ?></p>
                             </div>
-                            <p class="card-text"><?php echo $output[20]['teks']; ?></p>
                         </div>
                     </div>
-                    <div class="card card-image">
-                        <div class="bg-secondary w-100 h-100" id="image-8" style="cursor:pointer"></div>
-                    </div>
-                    <div class="card card-profile" id="profile-4" style="cursor:pointer">
-                        <div class="card-body">
-                            <h5 class="card-title"><?php echo $output[16]['teks']; ?></h5> <br><br>
-                            <div class="social d-none d-md-flex">
-                                <a href="#" target="_blank">
-                                    <img src="assets/img/in.png" alt="instagram-logo">
-                                </a>
-                            </div>
-                            <p class="card-text"><?php echo $output[17]['teks']; ?></p>
+                    <div class="col-lg-3">
+                        <div class="card card-image">
+                            <img id="image-3" src="assets/img/6.png" style="cursor:pointer">
                         </div>
                     </div>
+
+                    <!-- Blok 5 -->
+                    <div class="col-lg-3">
+                        <div class="card card-profile" id="profile-6" style="cursor: pointer;">
+                            <div class="card-body">
+                                <h5 class="card-title"><?php echo $output[19]['teks']; ?></h5> <br><br>
+                                <div class="social d-none d-md-flex">
+                                    <a href="#">
+                                        <img src="assets/img/in.png" alt="instagram-logo">
+                                    </a>
+                                </div>
+                                <p class="card-text"><?php echo $output[18]['teks']; ?></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card card-image" style="cursor: pointer;">
+                            <img src="assets/img/daniel.jpg" id="image-6">
+                        </div>
+                    </div>
+
+                    <!-- Blok 6 -->
+                    <div class="col-lg-3">
+                        <div class="card card-image">
+                            <img id="image-7" src="assets/img/Madyastha.jpg" style="cursor:pointer">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card card-profile" id="profile-7" style="cursor:pointer">
+                            <div class="card-body">
+                                <h5 class="card-title"><?php echo $output[21]['teks']; ?></h5> <br><br>
+                                <div class="social d-none d-md-flex">
+                                    <a href="#" target="_blank">
+                                        <img src="assets/img/in.png" alt="instagram-logo">
+                                    </a>
+                                </div>
+                                <p class="card-text"><?php echo $output[20]['teks']; ?></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Blok 7 -->
+                    <div class="col-lg-3">
+                        <div class="card card-image">
+                            <img id="image-8" src="assets/img/hani.jpg" style="cursor:pointer">
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="card card-profile" id="profile-8" style="cursor:pointer">
+                            <div class="card-body">
+                                <h5 class="card-title"><?php echo $output[16]['teks']; ?></h5> <br><br>
+                                <div class="social d-none d-md-flex">
+                                    <a href="#" target="_blank">
+                                        <img src="assets/img/in.png" alt="instagram-logo">
+                                    </a>
+                                </div>
+                                <p class="card-text"><?php echo $output[17]['teks']; ?></p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-            </div>
             </div>
             <footer class="mt-5">
                 <div class="container">
@@ -258,80 +288,121 @@ while ($row = mysqli_fetch_assoc($result))
             $(document).ready(function () {
                 $('#image-1').hover(function () {
                     $('#profile-1').addClass('main', '100');
+                    $('#profile-1-2').addClass('main', '100');
                 }, function () {
                     $('#profile-1').removeClass('main', '100');
-                })
+                    $('#profile-1-2').removeClass('main', '100');
+                });
+
+                $('#profile-1').hover(function () {
+                    $('#profile-1-2').addClass('main', '100');
+                }, function () {
+                    $('#profile-1-2').removeClass('main', '100');
+                });
+
+                $('#profile-1-2').hover(function () {
+                    $('#profile-1').addClass('main', '100');
+                }, function () {
+                    $('#profile-1').removeClass('main', '100');
+                });
+
                 $('#image-2').hover(function () {
                     $('#profile-2').addClass('main', '100');
                 }, function () {
                     $('#profile-2').removeClass('main', '100');
-                })
+                });
+
+                $('#image-3').hover(function () {
+                    $('#profile-3').addClass('main', '100');
+                }, function () {
+                    $('#profile-3').removeClass('main', '100');
+                });
+
+                $('#image-4').hover(function () {
+                    $('#profile-4').addClass('main', '100');
+                }, function () {
+                    $('#profile-4').removeClass('main', '100');
+                });
+
                 $('#image-5').hover(function () {
                     $('#profile-5').addClass('main', '100');
                 }, function () {
                     $('#profile-5').removeClass('main', '100');
-                })
+                });
+
                 $('#image-6').hover(function () {
                     $('#profile-6').addClass('main', '100');
                 }, function () {
                     $('#profile-6').removeClass('main', '100');
-                })
+                });
 
-            $('#profile-1').on('click', function(event) {
-                window.location = 'lawyers/lawyers-verry.php';
-            });
-            $('#image-1').on('click', function(event) {
-                window.location = 'lawyers/lawyers-verry.php';
-            });
+                $('#image-7').hover(function () {
+                    $('#profile-7').addClass('main', '100');
+                }, function () {
+                    $('#profile-7').removeClass('main', '100');
+                });
 
-            $('#profile-2').on('click', function(event) {
-                window.location = 'lawyers/lawyers-nofrizal.php';
-            });
-            $('#image-2').on('click', function(event) {
-                window.location = 'lawyers/lawyers-nofrizal.php';
-            });
+                $('#image-8').hover(function () {
+                    $('#profile-8').addClass('main', '100');
+                }, function () {
+                    $('#profile-8').removeClass('main', '100');
+                });
 
-            $('#profile-3').on('click', function(event) {
-                window.location = 'lawyers/lawyers-syarifah.php';
-            });
-            $('#image-3').on('click', function(event) {
-                window.location = 'lawyers/lawyers-syarifah.php';
-            });
+                $('#profile-1').on('click', function(event) {
+                    window.location = 'lawyers/lawyers-verry.php';
+                });
+                $('#image-1').on('click', function(event) {
+                    window.location = 'lawyers/lawyers-verry.php';
+                });
 
-            $('#profile-4').on('click', function(event) {
-                window.location = 'lawyers/lawyers-maria.php';
-            });
-            $('#image-4').on('click', function(event) {
-                window.location = 'lawyers/lawyers-maria.php';
-            });
+                $('#profile-2').on('click', function(event) {
+                    window.location = 'lawyers/lawyers-nofrizal.php';
+                });
+                $('#image-2').on('click', function(event) {
+                    window.location = 'lawyers/lawyers-nofrizal.php';
+                });
 
-            $('#profile-5').on('click', function(event) {
-                window.location = 'lawyers/lawyers-grace.php';
-            });
-            $('#image-5').on('click', function(event) {
-                window.location = 'lawyers/lawyers-grace.php';
-            });
+                $('#profile-3').on('click', function(event) {
+                    window.location = 'lawyers/lawyers-syarifah.php';
+                });
+                $('#image-3').on('click', function(event) {
+                    window.location = 'lawyers/lawyers-syarifah.php';
+                });
 
-            $('#profile-6').on('click', function(event) {
-                window.location = 'lawyers/lawyers-daniel.php';
-            });
-            $('#image-6').on('click', function(event) {
-                window.location = 'lawyers/lawyers-daniel.php';
-            });
+                $('#profile-4').on('click', function(event) {
+                    window.location = 'lawyers/lawyers-maria.php';
+                });
+                $('#image-4').on('click', function(event) {
+                    window.location = 'lawyers/lawyers-maria.php';
+                });
 
-            $('#profile-8').on('click', function(event) {
-                window.location = 'lawyers/lawyers-hani.php';
-            });
-            $('#image-8').on('click', function(event) {
-                window.location = 'lawyers/lawyers-hani.php';
-            });
+                $('#profile-5').on('click', function(event) {
+                    window.location = 'lawyers/lawyers-grace.php';
+                });
+                $('#image-5').on('click', function(event) {
+                    window.location = 'lawyers/lawyers-grace.php';
+                });
 
-            $('#profile-9').on('click', function(event) {
-                window.location = 'lawyers/lawyers-madyastha.php';
-            });
-            $('#image-9').on('click', function(event) {
-                window.location = 'lawyers/lawyers-madyastha.php';
-            });
+                $('#profile-6').on('click', function(event) {
+                    window.location = 'lawyers/lawyers-daniel.php';
+                });
+                $('#image-6').on('click', function(event) {
+                    window.location = 'lawyers/lawyers-daniel.php';
+                });
+
+                $('#profile-8').on('click', function(event) {
+                    window.location = 'lawyers/lawyers-hani.php';
+                });
+                $('#image-8').on('click', function(event) {
+                    window.location = 'lawyers/lawyers-hani.php';
+                });
+
+                $('#profile-7').on('click', function(event) {
+                    window.location = 'lawyers/lawyers-madyastha.php';
+                });
+                $('#image-7').on('click', function(event) {
+                    window.location = 'lawyers/lawyers-madyastha.php';
+                });
             });
 
         </script>

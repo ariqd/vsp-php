@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
     <div class="row pt-5">
         <div class="col-4 mx-auto">
             <div class="text-center">
-                <img src="../assets/img/logo.png" alt="logo" width="180">
+                <img src="../assets/img/logo.png" alt="logo" width="350">
             </div>
             <div class="card mt-5">
                 <div class="card-body">

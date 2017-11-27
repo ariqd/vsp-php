@@ -18,3 +18,4 @@ function tanggal_indo($tanggal)
     $split = explode('-', $tanggal);
     return $split[2] . ' ' . $bulan[ (int)$split[1] ] . ' ' . $split[0];
 }
+?>
