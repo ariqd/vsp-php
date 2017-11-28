@@ -238,21 +238,17 @@ while ($row = mysqli_fetch_assoc($result))
                 <div class="container">
                 <div class="row py-5">
                     <div class="col-md-7">
-                        <h5>LAW FIRM VERRY SITORUS &amp; PARTNERS</h5>
-                        <p>
-                            Since 2015, Law Firm Verry Sitorus & Partners have been one of the best law office in Indonesia with a structured vision for serving the best legal services in the name of justice and unity. We have wide client and partner network especially in Insolvency and Bankruptcy Law.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <h5>Contact VSP</h5>
-                        <p>
-                            Gedung Kopi, 1st Floor <br>
-                            Jl. R.P. Soeroso No. 20,<br>
-                            Cikini - Menteng, Jakarta Pusat - 10330.<br>
-                            P : + 62 21 3190 7457<br>
-                            F : + 62 21 3190 7248<br>
-                            E : law@vsp.co.id <br>
-                        </p>
+                      <h5>LAW FIRM VERRY SITORUS &amp; PARTNERS</h5>
+                      <p>Since 2015, Law Firm Verry Sitorus & Partners have been one of the best law office in Indonesia with a structured vision for serving the best legal services in the name of justice and unity. We have wide client and partner network especially in Insolvency and Bankruptcy Law.</p>
+                  </div>
+                  <div class="col-md-3">
+                      <h5>Contact VSP</h5>
+                      <p>Gedung Kopi, 1st Floor
+Jl. R.P. Soeroso No. 20,
+Cikini - Menteng, Jakarta Pusat - 10330.
+P : + 62 21 3190 7457
+F : + 62 21 3190 7248
+E : law@vsp.co.id</p>
                     </div>
                     <div class="col-md-2">
                         <h5>Find VSP</h5>

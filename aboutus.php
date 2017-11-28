@@ -115,26 +115,13 @@ while ($row = mysqli_fetch_assoc($result_about))
                         </div>
                         <div class="row mt-5">
                             <div class="col-lg-6 pr-5">
-                                <p class="din">
-                                    <b>
-                                        The Prologue From VSP Managing Partner<br>
-                                        <span class="red" style="font-size:20px;font-weight:normal;">Verry Sitorus, S.H.</span><br>
-                                        Managing Partner
-                                    </b>
-                                    <br><br>
+                                <p class="din"><b>The Prologue From VSP Managing Partner<br><span class="red" style="font-size:20px;font-weight:normal;">Verry Sitorus, S.H.</span><br>Managing Partner</b>
+
                                 </p>
                                 <a href="#" class="btn btn-vsp btn-vsp-extended w-75" style="outline:none;border:0">Download Compro</a>
                             </div>
                             <div class="col-lg-6 pl-5">
-                                <p class="text-small">
-                                    <?php echo $about[1]['teks']; ?>
-<!--                                    Dear valued clients,<br><br>-->
-<!--                                    Welcome to Law Firm Verry Sitorus & Partners (VSP), a grand haven for well-skilled lawyers and qualified defenders that are always marked with its long term excellence. VSP was established in August 28, 2015 with a structured vision for serving the best legal services in the name of justice and unity.<br><br>-->
-<!--                                    Our best figure is also associated with the demands for numerous cases that are blatantly measured to guarantee our brightest potentials. This is exactly what people need to be able to comprehend a lot of legal matters that are always made to be resolved in a magnificent strategy that we promise to present.<br><br>-->
-<!--                                    Our mission is to bring the orientation of justice that is quite far from the reach of people who have no abilities with regard to the act of law. We believe that every person possess a mutual equality in pursuing their rights before the Court or even in the corporation schemes. <br><br>-->
-<!--                                    By the gleam of this explanatory preface, our Firm thanks you deeply and we are looking forward to corresponding with you in all your legal needs.-->
-
-                              </p>
+                                <p class="text-small"><?php echo $about[1]['teks']; ?></p>
                             </div>
                         </div>
                     </div>
@@ -183,19 +170,10 @@ while ($row = mysqli_fetch_assoc($result_about))
                       <div class="section mt-0 pt-0">
                           <div class="row">
                               <div class="col-lg-6 pr-5">
-                                  <p class="text-small">
-                                      <?php echo $about[2]['teks']; ?>
-<!--                                      We are a people business. Being massive in class in the eyes of our clients, means that our people must be excellent. <br><br>-->
-<!--Aspire to become one of the most high-quality Law Firms; we started our journey in 2015 with Industrial Relations dispute between a labor and the company where she worked, which is one of the biggest companies in Jakarta. Furthermore, the dispute settled in amicable manner between the two parties. <br><br>-->
-<!--Another case in 2015 was a breach of contract that had been successfully handled by us. Since then, so many parties with various cases coming to us, such as insolvency and bankruptcy cases, suspension of debt payment, criminal, contract review, and contract drafting, and some corporate law-related cases.-->
-                                </p>
+                                  <p class="text-small"><?php echo $about[2]['teks']; ?></p>
                               </div>
                               <div class="col-lg-6 pl-5">
-                                  <p class="text-small">
-                                      <?php echo $about[3]['teks']; ?>
-<!--                                      Clients' businesses are our business. We bring a long-term perspective, embracing new ideas and proactively identifying future trends. WE LISTEN TO OUR CLIENTS TO ALLOW US TO UNDERSTAND THEIR CURRENT AND FUTURE NEEDS AND TO SHAPE OUR BUSINESS TO MEET THOSE NEEDS. <br><br>-->
-<!--Clients share their experiences with us that they value our solidarity, culture, and we honor the spirit of teamwork and collaboration on which our firm was built – but we also provide the benefits of working with an ambitious, forward-looking, and exceptional business. It is also important to us that we are recognized as a responsible lawyer team, wherein we use our skills and resources to pose positive effects in the community.-->
-                                  </p>
+                                  <p class="text-small"><?php echo $about[3]['teks']; ?></p>
                               </div>
                           </div>
                           <div class="row mt-5">
@@ -216,21 +194,17 @@ while ($row = mysqli_fetch_assoc($result_about))
                 <div class="container">
                     <div class="row py-5">
                         <div class="col-sm-7">
-                            <h5>LAW FIRM VERRY SITORUS &amp; PARTNERS</h5>
-                            <p>
-                                Since 2015, Law Firm Verry Sitorus & Partners have been one of the best law office in Indonesia with a structured vision for serving the best legal services in the name of justice and unity. We have wide client and partner network especially in Insolvency and Bankruptcy Law.
-                            </p>
-                        </div>
-                        <div class="col-sm-3">
-                            <h5>CONTACT VSP</h5>
-                            <p>
-                                Gedung Kopi, 1st Floor <br>
-Jl. R.P. Soeroso No. 20,<br>
-Cikini - Menteng, Jakarta Pusat - 10330.<br>
-P : + 62 21 3190 7457<br>
-F : + 62 21 3190 7248<br>
-E : law@vsp.co.id <br>
-                            </p>
+                          <h5>LAW FIRM VERRY SITORUS &amp; PARTNERS</h5>
+                          <p>Since 2015, Law Firm Verry Sitorus & Partners have been one of the best law office in Indonesia with a structured vision for serving the best legal services in the name of justice and unity. We have wide client and partner network especially in Insolvency and Bankruptcy Law.</p>
+                      </div>
+                      <div class="col-md-3">
+                          <h5>Contact VSP</h5>
+                          <p>Gedung Kopi, 1st Floor
+  Jl. R.P. Soeroso No. 20,
+  Cikini - Menteng, Jakarta Pusat - 10330.
+  P : + 62 21 3190 7457
+  F : + 62 21 3190 7248
+  E : law@vsp.co.id</p>
                         </div>
                         <div class="col-sm-2">
                             <h5>Find VSP</h5>

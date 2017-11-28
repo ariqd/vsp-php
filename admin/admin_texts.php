@@ -121,7 +121,9 @@ $result_contact = mysqli_query($db, $contact);
                                 <div class="form-row">
                                     <div class="col-6">
                                         <div class="form-group">
+                                          <pre>
                                             <textarea name="text[]" cols="100" rows="10" style="border: 1px solid #bdbdbd"><?php echo $value['teks'] ?></textarea>
+                                          </pre>
                                         </div>
                                     </div>
                                     <div class="col-6">
@@ -141,11 +143,15 @@ $result_contact = mysqli_query($db, $contact);
                                     <div class="form-row">
                                         <div class="col-6">
                                             <div class="form-group">
+                                              <pre>
                                                 <textarea name="text[]" cols="100" rows="10" style="border: 1px solid #bdbdbd"><?php echo $value['teks'] ?></textarea>
+                                              </pre>
                                             </div>
                                         </div>
                                         <div class="col-6">
+                                          <pre>
                                             <h4 class="pt-5"><?php echo $value['teks'] ?></h4>
+                                          </pre>
                                         </div>
                                     </div>
                                 <?php } ?>
@@ -165,7 +171,9 @@ $result_contact = mysqli_query($db, $contact);
                                             </div>
                                         </div>
                                         <div class="col-6">
+                                          <pre>
                                             <h4 class="pt-5"><?php echo $value['teks'] ?></h4>
+                                          </pre>
                                         </div>
                                     </div>
                                 <?php } ?>

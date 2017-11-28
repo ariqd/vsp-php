@@ -85,8 +85,7 @@ while ($row = mysqli_fetch_assoc($result_expertise))
                               <h4 class="mt-4"><span class="red">INSOLVENCY & BANKRUPCY LAW</span></h4>
                             </div>
                             <div class="col-md-6">
-                              <p>
-                                  <?php echo $expertise[1]['teks']; ?>
+                              <p><?php echo $expertise[1]['teks']; ?></p>
 <!--                                We provide an expert business advice on company rescue, restructuring, and insolvency. <br><br>-->
 <!--                                Trading in difficult circumstances can result in a wealth of problems, impacting on both-->
 <!--                                creditors and debtors. Often companies continue to trade in financial circumstances that-->
@@ -102,7 +101,7 @@ while ($row = mysqli_fetch_assoc($result_expertise))
 <!--                                & bankruptcy including applying the Suspension of Debt Payment (PKPU) and Insolvency in the-->
 <!--                                Commercial Court, assisting and representing the client as Bankrupt/Suspension of Debt Payment-->
 <!--                                (PKPU) Respondent, as well as assisting clients in Debt Restructuring and Reorganization of the Company. <br><br>-->
-                              </p>
+
                                 <div class="hr mt-5"></div>
                             </div>
                           </div>
@@ -112,8 +111,7 @@ while ($row = mysqli_fetch_assoc($result_expertise))
                                   <h4 class="mt-4"><span class="red">LITIGATIONS</span></h4>
                                 </div>
                               <div class="col-md-6">
-                                    <p>
-                                        <?php echo $expertise[2]['teks']; ?>
+                                    <p><?php echo $expertise[2]['teks']; ?></p>
 <!--                                      The Litigation Group draws upon VSP rich expertise in corporate, financial and transactional,-->
 <!--                                      criminal, family, and industrial relations law, forming seamlessly integrated teams that handle-->
 <!--                                      any related or follow-on matters that arise. VSP manages issues through every stage of the litigation life cycle.<br><br>-->
@@ -126,7 +124,7 @@ while ($row = mysqli_fetch_assoc($result_expertise))
 <!--                                      addresses local issues as well as the risks to a global business that arise from cross-border-->
 <!--                                      investigations. We can credibly present this analysis to regulators across jurisdictions to protect-->
 <!--                                      our clients’ positions.<br><br>-->
-                                    </p>
+
                                     <div class="hr mt-5"></div>
                               </div>
                           </div>
@@ -136,8 +134,7 @@ while ($row = mysqli_fetch_assoc($result_expertise))
                                   <h4 class="mt-4"><span class="red">ALTERNATIVE DISPUITE REGULATIONS </span></h4>
                                 </div>
                               <div class="col-md-6">
-                                    <p>
-                                        <?php echo $expertise[3]['teks']; ?>
+                                    <p><?php echo $expertise[3]['teks']; ?></p>
 <!--                                      We have experienced a consistent demand increase for litigation and also alternative-->
 <!--                                      dispute resolution services in the past few years and have experienced success.<br><br>-->
 <!--                                      VSP could provide analysis issues and drafts mediation and arbitration clauses in-->
@@ -152,7 +149,7 @@ while ($row = mysqli_fetch_assoc($result_expertise))
 <!--                                      choosing the method most appropriate to them and to a particular matter. Our main priority-->
 <!--                                      is to resolve disputes in a quick and effective manner with as little disruption to-->
 <!--                                      business as possible – recognition of this is central to how we approach any matter.-->
-                                    </p>
+
                                     <div class="hr my-5"></div>
                               </div>
                           </div>
@@ -169,45 +166,43 @@ while ($row = mysqli_fetch_assoc($result_expertise))
                           </div>
                           <div class="row pt-5">
                           <div class="col-md-4">
-                              <p class="line-height-plus">Administrative Law<br>
-                                  Agrarian Law<br>
-                                  Anti-Corruption Law<br>
-                                  Anti-Money Laundering Law<br>
-                                  Arbitration Law<br>
-                                  Banking Law<br>
-                                  Capital Market Law<br>
-                                  Commercial Law<br>
-                                  Constitutional Law<br>
-                                  Consumer Protection Law<br>
-                                  Corporate and Business Law<br>
-                                  Corporate Finance Law
-                              </p>
+                              <p class="line-height-plus">Administrative Law
+Agrarian Law
+Anti-Corruption Law
+Anti-Money Laundering Law
+Arbitration Law
+Banking Law
+Capital Market Law
+Commercial Law
+Constitutional Law
+Consumer Protection Law
+Corporate and Business Law
+Corporate Finance Law</p>
                           </div>
                         <div class="col-md-4">
-                          <p class="line-height-plus">Criminal Law<br>
-                            Customary Law<br>
-                            Debt’s Restructuring<br>
-                            E-Commerce Law<br>
-                            Employment Law<br>
-                            Environmental Law<br>
-                            Family Law<br>
-                            Foreign Investment Law<br>
-                            Foundation Law<br>
-                            Governmental Law<br>
-                            Human Rights Law<br>
-                            Immigration Law
-                          </p>
+                          <p class="line-height-plus">Criminal Law
+Customary Law
+Debt’s Restructuring
+E-Commerce Law
+Employment Law
+Environmental Law
+Family Law
+Foreign Investment Law
+Foundation Law
+Governmental Law
+Human Rights Law
+Immigration Law</p>
                         </div>
                           <div class="col-md-4">
-                            <p class="line-height-plus">Insolvency and Bankruptcy Law<br>
-                                Insurance Law<br>
-                                Intellectual Property Law<br>
-                                International Law<br>
-                                International Trade Law<br>
-                                Islamic Law<br>
-                                Law and Corporate Governance<br>
-                                Law and Public Policy<br>
-                                Mergers and Acquisitions Law
+                            <p class="line-height-plus">Insolvency and Bankruptcy Law
+Insurance Law
+Intellectual Property Law
+International Law
+International Trade Law
+Islamic Law
+Law and Corporate Governance
+Law and Public Policy
+Mergers and Acquisitions Law
                             </p>
                           </div>
                         </div>
@@ -220,20 +215,17 @@ while ($row = mysqli_fetch_assoc($result_expertise))
             <div class="container">
                 <div class="row py-5">
                     <div class="col-md-7">
-                        <h5>LAW FIRM VERRY SITORUS &amp; PARTNERS</h5>
-                        <p>
-                            Since 2015, Law Firm Verry Sitorus & Partners have been one of the best law office in Indonesia with a structured vision for serving the best legal services in the name of justice and unity. We have wide client and partner network especially in Insolvency and Bankruptcy Law.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <h5>Contact VSP</h5>
-                        <p>
-                            Gedung Kopi, 1st Floor <br>
-Jl. R.P. Soeroso No. 20,<br>
-Cikini - Menteng, Jakarta Pusat - 10330.<br>
-P : + 62 21 3190 7457<br>
-F : + 62 21 3190 7248<br>
-E : law@vsp.co.id <br>
+                      <h5>LAW FIRM VERRY SITORUS &amp; PARTNERS</h5>
+                      <p>Since 2015, Law Firm Verry Sitorus & Partners have been one of the best law office in Indonesia with a structured vision for serving the best legal services in the name of justice and unity. We have wide client and partner network especially in Insolvency and Bankruptcy Law.</p>
+                  </div>
+                  <div class="col-md-3">
+                      <h5>Contact VSP</h5>
+                      <p>Gedung Kopi, 1st Floor
+Jl. R.P. Soeroso No. 20,
+Cikini - Menteng, Jakarta Pusat - 10330.
+P : + 62 21 3190 7457
+F : + 62 21 3190 7248
+E : law@vsp.co.id</p>
                         </p>
                     </div>
                     <div class="col-md-2">

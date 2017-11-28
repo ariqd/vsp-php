@@ -93,21 +93,15 @@ $data = mysqli_fetch_array($news);
                 </div>
                 <div class="row mt-4">
                     <div class="col-lg-6 pr-5">
-                        <p style="font-size:18px">
-                            <?php echo $data['header']; ?>
-                        </p>
+                        <p style="font-size:18px"><?php echo $data['header']; ?></p>
                         <?php if ($data['gambar']) { ?>
                             <img src="assets/img/<?php echo $data['gambar']?>" class="img-article py-4">
                         <?php } ?>
                         <p class="text-small">
-                            <br>
-                            <?php echo $data['kolom1']; ?>
-                        </p>
+<?php echo $data['kolom1']; ?></p>
                     </div>
                     <div class="col-lg-6 pl-5">
-                        <p class="text-small">
-                            <?php echo $data['kolom2'];?>
-                        </p>
+                        <p class="text-small"><?php echo $data['kolom2'];?></p>
                     </div>
                 </div>
             </div>
@@ -119,24 +113,17 @@ $data = mysqli_fetch_array($news);
     <div class="container">
         <div class="row py-5">
             <div class="col-sm-7">
-                <h5>LAW FIRM VERRY SITORUS &amp; PARTNERS</h5>
-                <p>
-                    Since 2015, Law Firm Verry Sitorus & Partners have been one of the best
-                    law office in Indonesia with a structured vision for serving the best legal
-                    services in the name of justice and unity. We have wide client and partner network
-                    especially in Insolvency and Bankruptcy Law.
-                </p>
-            </div>
-            <div class="col-sm-3">
-                <h5>CONTACT VSP</h5>
-                <p>
-                    Gedung Kopi, 1st Floor <br>
-                    Jl. R.P. Soeroso No. 20,<br>
-                    Cikini - Menteng, Jakarta Pusat - 10330.<br>
-                    P : + 62 21 3190 7457<br>
-                    F : + 62 21 3190 7248<br>
-                    E : law@vsp.co.id <br>
-                </p>
+              <h5>LAW FIRM VERRY SITORUS &amp; PARTNERS</h5>
+              <p>Since 2015, Law Firm Verry Sitorus & Partners have been one of the best law office in Indonesia with a structured vision for serving the best legal services in the name of justice and unity. We have wide client and partner network especially in Insolvency and Bankruptcy Law.</p>
+          </div>
+          <div class="col-md-3">
+              <h5>Contact VSP</h5>
+              <p>Gedung Kopi, 1st Floor
+Jl. R.P. Soeroso No. 20,
+Cikini - Menteng, Jakarta Pusat - 10330.
+P : + 62 21 3190 7457
+F : + 62 21 3190 7248
+E : law@vsp.co.id</p>
             </div>
             <div class="col-sm-2">
                 <h5>Find VSP</h5>

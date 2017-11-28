@@ -123,25 +123,19 @@ while ($row = mysqli_fetch_assoc($result_news))
                 <div class="col-md-4 text-center mx-auto">
                     <img src="assets/img/logo-paper.png" alt="insolvency">
                     <h5 class="red pt-3">INSOLVENCY &amp; BANKRUPTCY LAW</h5>
-                    <p class="pt-2">
-                        We provide an expert business advice on company rescue, restructuring, and insolvency.
-                    </p>
+                    <p class="pt-2">We provide an expert business advice on company rescue, restructuring, and insolvency.</p>
                 </div>
                 <div class="col-md-4 text-center mx-auto pt-5 pt-md-0">
                     <img src="assets/img/logo-pillar.png" alt="dispute">
                     <h5 class="red pt-3">ALTERNATIVE DISPUTE</h5>
-                    <p class="pt-2">
-                        We actively pursue all avenues of dispute resolution available and advise clients on choosing the method most appropriate to them and to a particular matter.
-                    </p>
+                    <p class="pt-2">We actively pursue all avenues of dispute resolution available and advise clients on choosing the method most appropriate to them and to a particular matter.</p>
                 </div>
             </div>
             <div class="row py-lg-5">
                 <div class="col-md-4 text-center mx-auto py-lg-2">
                     <img src="assets/img/logo-pantheon.png" alt="insolvency">
                     <h5 class="red pt-3">LITIGATIONS</h5>
-                    <p class="pt-2">
-                        We have experienced a consistent demand increase for litigation and also alternative dispute resolution services in the past few years and have experienced success.
-                    </p>
+                    <p class="pt-2">We have experienced a consistent demand increase for litigation and also alternative dispute resolution services in the past few years and have experienced success.</p>
                     <a href="expertise.php" class="btn btn-vsp btn w-50 mt-5">READ MORE</a>
                 </div>
             </div>
@@ -357,21 +351,17 @@ while ($row = mysqli_fetch_assoc($result_news))
             <div class="container">
                 <div class="row py-5">
                     <div class="col-md-7">
-                        <h5>LAW FIRM VERRY SITORUS &amp; PARTNERS</h5>
-                        <p>
-                            Since 2015, Law Firm Verry Sitorus & Partners have been one of the best law office in Indonesia with a structured vision for serving the best legal services in the name of justice and unity. We have wide client and partner network especially in Insolvency and Bankruptcy Law.
-                        </p>
-                    </div>
-                    <div class="col-md-3">
-                        <h5>Contact VSP</h5>
-                        <p>
-                            Gedung Kopi, 1st Floor <br>
-                            Jl. R.P. Soeroso No. 20,<br>
-                            Cikini - Menteng, Jakarta Pusat - 10330.<br>
-                            P : + 62 21 3190 7457<br>
-                            F : + 62 21 3190 7248<br>
-                            E : law@vsp.co.id <br>
-                        </p>
+                      <h5>LAW FIRM VERRY SITORUS &amp; PARTNERS</h5>
+                      <p>Since 2015, Law Firm Verry Sitorus & Partners have been one of the best law office in Indonesia with a structured vision for serving the best legal services in the name of justice and unity. We have wide client and partner network especially in Insolvency and Bankruptcy Law.</p>
+                  </div>
+                  <div class="col-md-3">
+                      <h5>Contact VSP</h5>
+                      <p>Gedung Kopi, 1st Floor
+Jl. R.P. Soeroso No. 20,
+Cikini - Menteng, Jakarta Pusat - 10330.
+P : + 62 21 3190 7457
+F : + 62 21 3190 7248
+E : law@vsp.co.id</p>
                     </div>
                     <div class="col-md-2">
                         <h5>Find VSP</h5>
